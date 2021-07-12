@@ -1,0 +1,55 @@
+[
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "dicetoorderedhand",
+        "importPath": "dicetoorderedhand",
+        "description": "dicetoorderedhand",
+        "isExtraImport": true,
+        "detail": "dicetoorderedhand",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "dicetoorderedhand",
+        "kind": 2,
+        "importPath": "11-dicetoorderedhand-Python.dicetoorderedhand",
+        "description": "11-dicetoorderedhand-Python.dicetoorderedhand",
+        "peekOfCode": "def dicetoorderedhand(a, b, c):\n\t# your code goes here\n list=[a,b,c]#123\n list.sort()#1,2,3\n list.reverse()#3,2,1\n u=[str(i) for i in list]#321\n k=\"\".join(u)#321\n g=int(k)#int form\n return g",
+        "detail": "11-dicetoorderedhand-Python.dicetoorderedhand",
+        "documentation": {}
+    },
+    {
+        "label": "test_dicetoorderedhand",
+        "kind": 2,
+        "importPath": "11-dicetoorderedhand-Python.test_dicetoorderedhandle",
+        "description": "11-dicetoorderedhand-Python.test_dicetoorderedhandle",
+        "peekOfCode": "def test_dicetoorderedhand(a, b, c, check):\n    assert dicetoorderedhand(a, b, c) == check",
+        "detail": "11-dicetoorderedhand-Python.test_dicetoorderedhandle",
+        "documentation": {}
+    }
+]
