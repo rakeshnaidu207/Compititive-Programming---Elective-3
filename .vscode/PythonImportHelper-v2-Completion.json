@@ -1,0 +1,55 @@
+[
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "handtodice",
+        "importPath": "handtodice",
+        "description": "handtodice",
+        "isExtraImport": true,
+        "detail": "handtodice",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "handtodice",
+        "kind": 2,
+        "importPath": "10-handtodice-Python.handtodice",
+        "description": "10-handtodice-Python.handtodice",
+        "peekOfCode": "def handtodice(hand):\n    p=[]\n    r=str(hand)# converteing to string\n    for i in r:\n        i=hand%10 # for last number\n        hand=hand//10 # for first two numbers\n        p.append(i)\n    return tuple(p[::-1])\n    handtodice()",
+        "detail": "10-handtodice-Python.handtodice",
+        "documentation": {}
+    },
+    {
+        "label": "test_handtodice",
+        "kind": 2,
+        "importPath": "10-handtodice-Python.test_handtodice",
+        "description": "10-handtodice-Python.test_handtodice",
+        "peekOfCode": "def test_handtodice(a, check):\n    assert handtodice(a) == check",
+        "detail": "10-handtodice-Python.test_handtodice",
+        "documentation": {}
+    }
+]
