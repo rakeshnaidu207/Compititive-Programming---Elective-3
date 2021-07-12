@@ -11,8 +11,8 @@ def handtodice(hand):
     for i in r:
         i=hand%10 # for last number
         hand=hand//10 # for first two numbers
-        p.append(i)
-    return tuple(p[::-1])
+        p.append(i)# here p=[3,2,1]
+    return tuple(p[::-1])# to reverse the list(1,2,3)
     handtodice()
     
     

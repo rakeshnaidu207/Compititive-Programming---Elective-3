@@ -39,7 +39,7 @@
         "kind": 2,
         "importPath": "10-handtodice-Python.handtodice",
         "description": "10-handtodice-Python.handtodice",
-        "peekOfCode": "def handtodice(hand):\n    p=[]\n    r=str(hand)# converteing to string\n    for i in r:\n        i=hand%10 # for last number\n        hand=hand//10 # for first two numbers\n        p.append(i)\n    return tuple(p[::-1])\n    handtodice()",
+        "peekOfCode": "def handtodice(hand):\n    p=[]\n    r=str(hand)# converteing to string\n    for i in r:\n        i=hand%10 # for last number\n        hand=hand//10 # for first two numbers\n        p.append(i)# here p=[3,2,1]\n    return tuple(p[::-1])# to reverse the list(1,2,3)\n    handtodice()",
         "detail": "10-handtodice-Python.handtodice",
         "documentation": {}
     },
