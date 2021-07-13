@@ -1,0 +1,55 @@
+[
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "os,sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.sys",
+        "description": "os.sys",
+        "detail": "os.sys",
+        "documentation": {}
+    },
+    {
+        "label": "fun_nearestodd",
+        "importPath": "nearestodd",
+        "description": "nearestodd",
+        "isExtraImport": true,
+        "detail": "nearestodd",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "fun_nearestodd",
+        "kind": 2,
+        "importPath": "08-nearestodd-Python.nearestodd",
+        "description": "08-nearestodd-Python.nearestodd",
+        "peekOfCode": "def fun_nearestodd(n):\n    n = math.ceil(n)#math.ceil is used to round a number to its nearest integer\n    if(n%2 == 0):\n        return ((n-1))\n    else:\n        return ((n))",
+        "detail": "08-nearestodd-Python.nearestodd",
+        "documentation": {}
+    },
+    {
+        "label": "test_fun_nearestodd",
+        "kind": 2,
+        "importPath": "08-nearestodd-Python.test_nearestodd",
+        "description": "08-nearestodd-Python.test_nearestodd",
+        "peekOfCode": "def test_fun_nearestodd(Number, result):\n    assert type(fun_nearestodd(Number)) == int \n    assert fun_nearestodd(Number) == result",
+        "detail": "08-nearestodd-Python.test_nearestodd",
+        "documentation": {}
+    }
+]
