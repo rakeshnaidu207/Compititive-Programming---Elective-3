@@ -34,7 +34,6 @@
 # Hint: Also, remember to use % to get the one's digit, and use //= to get rid of the one's digit.
 
 def playstep2(hand, dice):
-    <<<<<<< Updated upstream
     	  
   nums=set(str(hand))
 
@@ -57,6 +56,7 @@ def playstep2(hand, dice):
 			  str_res+=char
 	  res = ''.join(sorted(str_res))
 	  return (int(res[::-1]),int(dice[0:-1]))
+ 
     
     
        
@@ -64,11 +64,3 @@ def playstep2(hand, dice):
      
      
      
-=======
-	# your code goes here
- p=[]
- r=str(hand)
- s=str(dice)
- if (s[1]>hand)
-    pass
->>>>>>> Stashed changes
