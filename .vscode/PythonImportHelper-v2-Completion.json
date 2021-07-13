@@ -1,0 +1,55 @@
+[
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "playstep2",
+        "importPath": "playstep2",
+        "description": "playstep2",
+        "isExtraImport": true,
+        "detail": "playstep2",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "playstep2",
+        "kind": 2,
+        "importPath": "12-playStep2-Python.playstep2",
+        "description": "12-playStep2-Python.playstep2",
+        "peekOfCode": "def playstep2(hand, dice):\n  nums=set(str(hand))\n  if len(nums)==1:\n    return (hand,dice)\n  elif(len(nums)!=2):\n\t  dice=str(dice)\n\t  hand=str(hand)\n\t  str_res=max(hand)+dice[-2:]\n\t  res = ''.join(sorted(str_res))\n\t  return (int(res[::-1]),int(dice[0:-2]))",
+        "detail": "12-playStep2-Python.playstep2",
+        "documentation": {}
+    },
+    {
+        "label": "test_playstep2",
+        "kind": 2,
+        "importPath": "12-playStep2-Python.test_playstep2",
+        "description": "12-playStep2-Python.test_playstep2",
+        "peekOfCode": "def test_playstep2(a, b, check):\n    assert playstep2(a, b) == check",
+        "detail": "12-playStep2-Python.test_playstep2",
+        "documentation": {}
+    }
+]
