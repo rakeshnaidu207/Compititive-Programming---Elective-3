@@ -30,7 +30,7 @@
         "kind": 2,
         "importPath": "05-getinrange-Python.getinrange",
         "description": "05-getinrange-Python.getinrange",
-        "peekOfCode": "def fun_getinrange(x, bound1, bound2):\n    if x in range(bound1,bound2):\n        return x\n    if(bound1< bound2 or bound1>bound2):\n        if x<bound1 or bound1<bound2:\n            return bound2\n        if x>bound1 or bound1>bound2:\n            return bound1",
+        "peekOfCode": "def fun_getinrange(x, bound1, bound2):\n    if x in range(bound1,bound2):\n        return x\n    m=min(bound1,bound2)\n    ma=max(bound1,bound2)\n    if x<m:\n        return m\n    elif x>ma:\n        return ma",
         "detail": "05-getinrange-Python.getinrange",
         "documentation": {}
     },
