@@ -1,0 +1,46 @@
+[
+    {
+        "label": "os,sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.sys",
+        "description": "os.sys",
+        "detail": "os.sys",
+        "documentation": {}
+    },
+    {
+        "label": "fun_getinrange",
+        "importPath": "getinrange",
+        "description": "getinrange",
+        "isExtraImport": true,
+        "detail": "getinrange",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "fun_getinrange",
+        "kind": 2,
+        "importPath": "05-getinrange-Python.getinrange",
+        "description": "05-getinrange-Python.getinrange",
+        "peekOfCode": "def fun_getinrange(x, bound1, bound2):\n    if x in range(bound1,bound2):\n        return x\n    if(bound1< bound2 or bound1>bound2):\n        if x<bound1 or bound1<bound2:\n            return bound2\n        if x>bound1 or bound1>bound2:\n            return bound1",
+        "detail": "05-getinrange-Python.getinrange",
+        "documentation": {}
+    },
+    {
+        "label": "test_fun_getinrange",
+        "kind": 2,
+        "importPath": "05-getinrange-Python.test_getinrange",
+        "description": "05-getinrange-Python.test_getinrange",
+        "peekOfCode": "def test_fun_getinrange(check, result):\n    assert check == result",
+        "detail": "05-getinrange-Python.test_getinrange",
+        "documentation": {}
+    }
+]
