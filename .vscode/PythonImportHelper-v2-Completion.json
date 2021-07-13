@@ -1,0 +1,46 @@
+[
+    {
+        "label": "os,sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.sys",
+        "description": "os.sys",
+        "detail": "os.sys",
+        "documentation": {}
+    },
+    {
+        "label": "fun_set_kth_digit",
+        "importPath": "set_kth_digit",
+        "description": "set_kth_digit",
+        "isExtraImport": true,
+        "detail": "set_kth_digit",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "fun_set_kth_digit",
+        "kind": 2,
+        "importPath": "07-set_kth_digit-Python.set_kth_digit",
+        "description": "07-set_kth_digit-Python.set_kth_digit",
+        "peekOfCode": "def fun_set_kth_digit(n, k, d):\n    flag = False #it is used to hold the binary values\n    if(n < 0):\n        n = -n\n        flag = True\n    count = 0\n    res = 0\n    while(n > 0):\n        r = n % 10\n        if count == k:",
+        "detail": "07-set_kth_digit-Python.set_kth_digit",
+        "documentation": {}
+    },
+    {
+        "label": "test_fun_set_kth_digit",
+        "kind": 2,
+        "importPath": "07-set_kth_digit-Python.test_set_kth_digit",
+        "description": "07-set_kth_digit-Python.test_set_kth_digit",
+        "peekOfCode": "def test_fun_set_kth_digit(Number, k, digit, result):\n    assert fun_set_kth_digit(Number, k, digit) == result",
+        "detail": "07-set_kth_digit-Python.test_set_kth_digit",
+        "documentation": {}
+    }
+]
