@@ -39,7 +39,7 @@
         "kind": 2,
         "importPath": "11-dicetoorderedhand-Python.dicetoorderedhand",
         "description": "11-dicetoorderedhand-Python.dicetoorderedhand",
-        "peekOfCode": "def dicetoorderedhand(a, b, c):\n\t# your code goes here\n list=[a,b,c]#123\n list.sort()#1,2,3\n list.reverse()#3,2,1\n u=[str(i) for i in list]#321\n k=\"\".join(u)#321\n g=int(k)#int form\n return g",
+        "peekOfCode": "def dicetoorderedhand(a, b, c):\n    L = max(a,b,c)#gives the largest value\n    S = min(a,b,c)#gives the smallest value\n    M = a + b + c - L - S# gives the middle value\n    p = L * (10)**2 + M * 10 + S \n    return p",
         "detail": "11-dicetoorderedhand-Python.dicetoorderedhand",
         "documentation": {}
     },

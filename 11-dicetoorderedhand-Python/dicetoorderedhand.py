@@ -11,11 +11,9 @@
 
 
 def dicetoorderedhand(a, b, c):
-	# your code goes here
- list=[a,b,c]#123
- list.sort()#1,2,3
- list.reverse()#3,2,1
- u=[str(i) for i in list]#321
- k="".join(u)#321
- g=int(k)#int form
- return g 
+    L = max(a,b,c)#gives the largest value
+    S = min(a,b,c)#gives the smallest value
+    M = a + b + c - L - S# gives the middle value
+    p = L * (10)**2 + M * 10 + S 
+    return p
+
