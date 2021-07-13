@@ -1,0 +1,46 @@
+[
+    {
+        "label": "os,sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.sys",
+        "description": "os.sys",
+        "detail": "os.sys",
+        "documentation": {}
+    },
+    {
+        "label": "fun_isfactor",
+        "importPath": "isfactor",
+        "description": "isfactor",
+        "isExtraImport": true,
+        "detail": "isfactor",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "fun_isfactor",
+        "kind": 2,
+        "importPath": "07-isfactor-Python.isfactor",
+        "description": "07-isfactor-Python.isfactor",
+        "peekOfCode": "def fun_isfactor(f, n):\n    if n==0:\n        return True\n    if f==0:\n        return False\n    if(abs(n)%abs(f)==0):# abs is used to convert the negative numbers to positive numbers\n        return True\n    else:\n        return False # replace with your solution",
+        "detail": "07-isfactor-Python.isfactor",
+        "documentation": {}
+    },
+    {
+        "label": "test_fun_isfactor",
+        "kind": 2,
+        "importPath": "07-isfactor-Python.test_isfactor",
+        "description": "07-isfactor-Python.test_isfactor",
+        "peekOfCode": "def test_fun_isfactor(f,n, result):\n    assert fun_isfactor(f, n) == result",
+        "detail": "07-isfactor-Python.test_isfactor",
+        "documentation": {}
+    }
+]

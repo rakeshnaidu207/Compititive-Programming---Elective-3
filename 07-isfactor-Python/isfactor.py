@@ -6,4 +6,11 @@
 
 
 def fun_isfactor(f, n):
-	return False # replace with your solution
+    if n==0:
+        return True
+    if f==0:
+        return False
+    if(abs(n)%abs(f)==0):# abs is used to convert the negative numbers to positive numbers
+        return True
+    else:
+        return False # replace with your solution
