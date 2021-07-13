@@ -1,0 +1,118 @@
+[
+    {
+        "label": "os,sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.sys",
+        "description": "os.sys",
+        "detail": "os.sys",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "pythondictionaries",
+        "description": "pythondictionaries",
+        "isExtraImport": true,
+        "detail": "pythondictionaries",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "sortUSA",
+        "kind": 2,
+        "importPath": "04-pythondictionaries-Python.pythondictionaries",
+        "description": "04-pythondictionaries-Python.pythondictionaries",
+        "peekOfCode": "def sortUSA():\n    usa_sorted = sorted(locations['North America']['USA'])\n    for city in usa_sorted:\n        return city\ndef alphaAsia():\n    asia_cities = []\n    for countries, cities in locations['Asia'].iteritems():\n        city_country = cities[0] + \" - \" + countries \n        asia_cities.append(city_country)\n        asia_sorted = sorted(asia_cities)",
+        "detail": "04-pythondictionaries-Python.pythondictionaries",
+        "documentation": {}
+    },
+    {
+        "label": "alphaAsia",
+        "kind": 2,
+        "importPath": "04-pythondictionaries-Python.pythondictionaries",
+        "description": "04-pythondictionaries-Python.pythondictionaries",
+        "peekOfCode": "def alphaAsia():\n    asia_cities = []\n    for countries, cities in locations['Asia'].iteritems():\n        city_country = cities[0] + \" - \" + countries \n        asia_cities.append(city_country)\n        asia_sorted = sorted(asia_cities)\n        for city in asia_sorted:\n            return city\n# Note: Check for test cases to understand the output format.\nlocations = {'North America': {'USA': ['Mountain View']}}",
+        "detail": "04-pythondictionaries-Python.pythondictionaries",
+        "documentation": {}
+    },
+    {
+        "label": "locations",
+        "kind": 5,
+        "importPath": "04-pythondictionaries-Python.pythondictionaries",
+        "description": "04-pythondictionaries-Python.pythondictionaries",
+        "peekOfCode": "locations = {'North America': {'USA': ['Mountain View']}}\nlocations['North America']['USA'].append('Atlanta')\nlocations['Asia'] = {'India': ['Bangalore']}\nlocations['Asia']['China'] = ['Shanghai']\nlocations['Africa'] = {'Egypt': ['Cairo']}",
+        "detail": "04-pythondictionaries-Python.pythondictionaries",
+        "documentation": {}
+    },
+    {
+        "label": "locations['Asia']",
+        "kind": 5,
+        "importPath": "04-pythondictionaries-Python.pythondictionaries",
+        "description": "04-pythondictionaries-Python.pythondictionaries",
+        "peekOfCode": "locations['Asia'] = {'India': ['Bangalore']}\nlocations['Asia']['China'] = ['Shanghai']\nlocations['Africa'] = {'Egypt': ['Cairo']}",
+        "detail": "04-pythondictionaries-Python.pythondictionaries",
+        "documentation": {}
+    },
+    {
+        "label": "locations['Asia']['China']",
+        "kind": 5,
+        "importPath": "04-pythondictionaries-Python.pythondictionaries",
+        "description": "04-pythondictionaries-Python.pythondictionaries",
+        "peekOfCode": "locations['Asia']['China'] = ['Shanghai']\nlocations['Africa'] = {'Egypt': ['Cairo']}",
+        "detail": "04-pythondictionaries-Python.pythondictionaries",
+        "documentation": {}
+    },
+    {
+        "label": "locations['Africa']",
+        "kind": 5,
+        "importPath": "04-pythondictionaries-Python.pythondictionaries",
+        "description": "04-pythondictionaries-Python.pythondictionaries",
+        "peekOfCode": "locations['Africa'] = {'Egypt': ['Cairo']}",
+        "detail": "04-pythondictionaries-Python.pythondictionaries",
+        "documentation": {}
+    },
+    {
+        "label": "test_classiness_1",
+        "kind": 2,
+        "importPath": "04-pythondictionaries-Python.test_solution",
+        "description": "04-pythondictionaries-Python.test_solution",
+        "peekOfCode": "def test_classiness_1(result, check):\n    assert result == check\nlocation = ['Bangalore - India', 'Shanghai - China']\n@pytest.mark.parametrize('result,check',[\n    (location,alphaAsia())\n])\ndef test_classiness_2(result, check):\n    assert result == check",
+        "detail": "04-pythondictionaries-Python.test_solution",
+        "documentation": {}
+    },
+    {
+        "label": "test_classiness_2",
+        "kind": 2,
+        "importPath": "04-pythondictionaries-Python.test_solution",
+        "description": "04-pythondictionaries-Python.test_solution",
+        "peekOfCode": "def test_classiness_2(result, check):\n    assert result == check",
+        "detail": "04-pythondictionaries-Python.test_solution",
+        "documentation": {}
+    },
+    {
+        "label": "location",
+        "kind": 5,
+        "importPath": "04-pythondictionaries-Python.test_solution",
+        "description": "04-pythondictionaries-Python.test_solution",
+        "peekOfCode": "location = ['Atlanta', 'Mountain View']\n@pytest.mark.parametrize('result,check',[\n    (location,sortUSA())\n])\ndef test_classiness_1(result, check):\n    assert result == check\nlocation = ['Bangalore - India', 'Shanghai - China']\n@pytest.mark.parametrize('result,check',[\n    (location,alphaAsia())\n])",
+        "detail": "04-pythondictionaries-Python.test_solution",
+        "documentation": {}
+    },
+    {
+        "label": "location",
+        "kind": 5,
+        "importPath": "04-pythondictionaries-Python.test_solution",
+        "description": "04-pythondictionaries-Python.test_solution",
+        "peekOfCode": "location = ['Bangalore - India', 'Shanghai - China']\n@pytest.mark.parametrize('result,check',[\n    (location,alphaAsia())\n])\ndef test_classiness_2(result, check):\n    assert result == check",
+        "detail": "04-pythondictionaries-Python.test_solution",
+        "documentation": {}
+    }
+]
