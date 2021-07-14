@@ -1,0 +1,46 @@
+[
+    {
+        "label": "os,sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.sys",
+        "description": "os.sys",
+        "detail": "os.sys",
+        "documentation": {}
+    },
+    {
+        "label": "removeduplicate",
+        "importPath": "removeduplicate",
+        "description": "removeduplicate",
+        "isExtraImport": true,
+        "detail": "removeduplicate",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "removeduplicate",
+        "kind": 2,
+        "importPath": "07-removeduplicate-Python.removeduplicate",
+        "description": "07-removeduplicate-Python.removeduplicate",
+        "peekOfCode": "def removeduplicate(text):\n    newtext = text\n    for i in newtext:\n        if i in text:\n            return (\"\".join(dict.fromkeys(text)))",
+        "detail": "07-removeduplicate-Python.removeduplicate",
+        "documentation": {}
+    },
+    {
+        "label": "test_removeduplicate",
+        "kind": 2,
+        "importPath": "07-removeduplicate-Python.test_removeduplicate",
+        "description": "07-removeduplicate-Python.test_removeduplicate",
+        "peekOfCode": "def test_removeduplicate(a, result):\n    assert removeduplicate(a) == result",
+        "detail": "07-removeduplicate-Python.test_removeduplicate",
+        "documentation": {}
+    }
+]
