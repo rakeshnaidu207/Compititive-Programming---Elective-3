@@ -30,7 +30,7 @@
         "kind": 2,
         "importPath": "04-pythondictionaries-Python.pythondictionaries",
         "description": "04-pythondictionaries-Python.pythondictionaries",
-        "peekOfCode": "def sortUSA():\n    usa_sorted = sorted(locations['North America']['USA'])\n    for city in usa_sorted:\n        return city\ndef alphaAsia():\n    asia_cities = []\n    for countries, cities in locations['Asia'].iteritems():\n        city_country = cities[0] + \" - \" + countries \n        asia_cities.append(city_country)\n        asia_sorted = sorted(asia_cities)",
+        "peekOfCode": "def sortUSA():\n    usa_sorted = sorted(locations['North America']['USA'])\n    for city in usa_sorted:\n        return city\ndef alphaAsia():\n    asia_cities = []\n    for countries, cities in locations['Asia'].iteritems():\n        city_country = cities[0] + \" - \" + countries\n        asia_cities.append(city_country)\n        asia_sorted = sorted(asia_cities)",
         "detail": "04-pythondictionaries-Python.pythondictionaries",
         "documentation": {}
     },
@@ -39,7 +39,7 @@
         "kind": 2,
         "importPath": "04-pythondictionaries-Python.pythondictionaries",
         "description": "04-pythondictionaries-Python.pythondictionaries",
-        "peekOfCode": "def alphaAsia():\n    asia_cities = []\n    for countries, cities in locations['Asia'].iteritems():\n        city_country = cities[0] + \" - \" + countries \n        asia_cities.append(city_country)\n        asia_sorted = sorted(asia_cities)\n        for city in asia_sorted:\n            return city\n# Note: Check for test cases to understand the output format.\nlocations = {'North America': {'USA': ['Mountain View']}}",
+        "peekOfCode": "def alphaAsia():\n    asia_cities = []\n    for countries, cities in locations['Asia'].iteritems():\n        city_country = cities[0] + \" - \" + countries\n        asia_cities.append(city_country)\n        asia_sorted = sorted(asia_cities)\n        for city in asia_sorted:\n            return city\n# Note: Check for test cases to understand the output format.\nlocations = {'North America': {'USA': ['Mountain View']}}",
         "detail": "04-pythondictionaries-Python.pythondictionaries",
         "documentation": {}
     },

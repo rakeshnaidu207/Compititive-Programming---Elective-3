@@ -39,7 +39,7 @@ def sortUSA():
 def alphaAsia():
     asia_cities = []
     for countries, cities in locations['Asia'].iteritems():
-        city_country = cities[0] + " - " + countries 
+        city_country = cities[0] + " - " + countries
         asia_cities.append(city_country)
         asia_sorted = sorted(asia_cities)
         for city in asia_sorted:
