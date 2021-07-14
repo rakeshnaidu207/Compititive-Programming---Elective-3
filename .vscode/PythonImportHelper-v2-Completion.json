@@ -30,7 +30,7 @@
         "kind": 2,
         "importPath": "09-nearestbusstop-Python.nearestbusstop",
         "description": "09-nearestbusstop-Python.nearestbusstop",
-        "peekOfCode": "def fun_nearestbusstop(street):\n\treturn -1",
+        "peekOfCode": "def fun_nearestbusstop(street):\n    busstop=0\n    if(street%8==0 and street==0):\n        return busstop+8\n    else:\n        return -1",
         "detail": "09-nearestbusstop-Python.nearestbusstop",
         "documentation": {}
     },
