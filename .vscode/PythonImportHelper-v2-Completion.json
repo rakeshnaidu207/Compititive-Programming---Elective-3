@@ -1,0 +1,55 @@
+[
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "os,sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.sys",
+        "description": "os.sys",
+        "detail": "os.sys",
+        "documentation": {}
+    },
+    {
+        "label": "fun_pascaltrianglevalue",
+        "importPath": "pascaltrianglevalue",
+        "description": "pascaltrianglevalue",
+        "isExtraImport": true,
+        "detail": "pascaltrianglevalue",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "fun_pascaltrianglevalue",
+        "kind": 2,
+        "importPath": "05-pascaltrianglevalue-Python.pascaltrianglevalue",
+        "description": "05-pascaltrianglevalue-Python.pascaltrianglevalue",
+        "peekOfCode": "def fun_pascaltrianglevalue(row, col):\n    if((row<0)or(col<0)or(col>row)):return None\n    return (math.factorial(row)/\n                       (math.factorial(col)*math.factorial(row-col)))",
+        "detail": "05-pascaltrianglevalue-Python.pascaltrianglevalue",
+        "documentation": {}
+    },
+    {
+        "label": "test_fun_pascaltrianglevalue",
+        "kind": 2,
+        "importPath": "05-pascaltrianglevalue-Python.test_pascaltrianglevalue",
+        "description": "05-pascaltrianglevalue-Python.test_pascaltrianglevalue",
+        "peekOfCode": "def test_fun_pascaltrianglevalue(row, col, result):\n    assert fun_pascaltrianglevalue(row, col) == result",
+        "detail": "05-pascaltrianglevalue-Python.test_pascaltrianglevalue",
+        "documentation": {}
+    }
+]
