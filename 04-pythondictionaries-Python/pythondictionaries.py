@@ -33,17 +33,13 @@ Asian City - Country"""
 
 def sortUSA():
     usa_sorted = sorted(locations['North America']['USA'])
-    for city in usa_sorted:
-        return city
+    return usa_sorted
 
 def alphaAsia():
-    asia_cities = []
-    for countries, cities in locations['Asia'].iteritems():
-        city_country = cities[0] + " - " + countries
-        asia_cities.append(city_country)
-        asia_sorted = sorted(asia_cities)
-        for city in asia_sorted:
-            return city
+    asia_cities = list()
+    for i in locations['Asia']:
+        asia_cities.extend([ j+' - '+i for j in locations['Asia'][i]])
+    return sorted(asia_cities)
 
 # Note: Check for test cases to understand the output format.
 locations = {'North America': {'USA': ['Mountain View']}}
