@@ -39,7 +39,7 @@
         "kind": 2,
         "importPath": "13-isevenpositive-Python.isevenpositiveint",
         "description": "13-isevenpositive-Python.isevenpositiveint",
-        "peekOfCode": "def isevenpositiveint(x):\n    if(x%2==0 and x>0):\n        return True\n    elif(str((x))!=int and str([x])!=int):\n        return False\n    elif(str(x)!=int):\n        return False\n    else:\n        return False",
+        "peekOfCode": "def isevenpositiveint(x):\n    if(x%2==0 and x>0 and str(x)!=int):\n        return True\n    elif(str(x)==int):\n        return False\n    else:\n        return False",
         "detail": "13-isevenpositive-Python.isevenpositiveint",
         "documentation": {}
     },
