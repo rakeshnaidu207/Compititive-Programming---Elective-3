@@ -1,0 +1,55 @@
+[
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "islegaltriangle",
+        "importPath": "islegaltriangle",
+        "description": "islegaltriangle",
+        "isExtraImport": true,
+        "detail": "islegaltriangle",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "islegaltriangle",
+        "kind": 2,
+        "importPath": "14-islegaltriangle-Python.islegaltriangle",
+        "description": "14-islegaltriangle-Python.islegaltriangle",
+        "peekOfCode": "def islegaltriangle(s1, s2, s3):\n    if ((s1+s2)<=s3) or ((s1+s3)<=s2) or ((s3+s2<=s1)):\n        return False\n    else:\n        return True",
+        "detail": "14-islegaltriangle-Python.islegaltriangle",
+        "documentation": {}
+    },
+    {
+        "label": "test_islegaltriangle",
+        "kind": 2,
+        "importPath": "14-islegaltriangle-Python.test_islegaltriangle",
+        "description": "14-islegaltriangle-Python.test_islegaltriangle",
+        "peekOfCode": "def test_islegaltriangle(x, y, z, check):\n    assert islegaltriangle(x, y, z) == check",
+        "detail": "14-islegaltriangle-Python.test_islegaltriangle",
+        "documentation": {}
+    }
+]
