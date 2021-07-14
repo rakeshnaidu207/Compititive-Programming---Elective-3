@@ -1,0 +1,46 @@
+[
+    {
+        "label": "os,sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.sys",
+        "description": "os.sys",
+        "detail": "os.sys",
+        "documentation": {}
+    },
+    {
+        "label": "fun_nearestbusstop",
+        "importPath": "nearestbusstop",
+        "description": "nearestbusstop",
+        "isExtraImport": true,
+        "detail": "nearestbusstop",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "fun_nearestbusstop",
+        "kind": 2,
+        "importPath": "09-nearestbusstop-Python.nearestbusstop",
+        "description": "09-nearestbusstop-Python.nearestbusstop",
+        "peekOfCode": "def fun_nearestbusstop(street):\n\treturn -1",
+        "detail": "09-nearestbusstop-Python.nearestbusstop",
+        "documentation": {}
+    },
+    {
+        "label": "test_fun_nearestbusstop",
+        "kind": 2,
+        "importPath": "09-nearestbusstop-Python.test_nearestbusstop",
+        "description": "09-nearestbusstop-Python.test_nearestbusstop",
+        "peekOfCode": "def test_fun_nearestbusstop(street, result):\n    assert fun_nearestbusstop(street) == result",
+        "detail": "09-nearestbusstop-Python.test_nearestbusstop",
+        "documentation": {}
+    }
+]
