@@ -1,0 +1,55 @@
+[
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "triangleareabycoordinates",
+        "importPath": "triangleareabycoordinates",
+        "description": "triangleareabycoordinates",
+        "isExtraImport": true,
+        "detail": "triangleareabycoordinates",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "test_triangleareabycoordinates",
+        "kind": 2,
+        "importPath": "17-triangleareabycoordinates-Python.test_triangleareabycoordinates",
+        "description": "17-triangleareabycoordinates-Python.test_triangleareabycoordinates",
+        "peekOfCode": "def test_triangleareabycoordinates(x, y, z, x1, y1, z1, check):\n    assert round(triangleareabycoordinates(x, y, z, x1, y1, z1), 2) == check",
+        "detail": "17-triangleareabycoordinates-Python.test_triangleareabycoordinates",
+        "documentation": {}
+    },
+    {
+        "label": "triangleareabycoordinates",
+        "kind": 2,
+        "importPath": "17-triangleareabycoordinates-Python.triangleareabycoordinates",
+        "description": "17-triangleareabycoordinates-Python.triangleareabycoordinates",
+        "peekOfCode": "def triangleareabycoordinates(x1, y1, x2, y2, x3, y3):\n    r=abs((0.5)*(x1*(y2-y3)+x2*(y3-y1)+x3*(y1-y2)))\n    return r",
+        "detail": "17-triangleareabycoordinates-Python.triangleareabycoordinates",
+        "documentation": {}
+    }
+]
