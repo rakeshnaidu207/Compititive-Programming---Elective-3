@@ -1,0 +1,46 @@
+[
+    {
+        "label": "os,sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.sys",
+        "description": "os.sys",
+        "detail": "os.sys",
+        "documentation": {}
+    },
+    {
+        "label": "fun_circlesintersect",
+        "importPath": "circlesintersect",
+        "description": "circlesintersect",
+        "isExtraImport": true,
+        "detail": "circlesintersect",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "fun_circlesintersect",
+        "kind": 2,
+        "importPath": "04-circlesintersect-Python.circlesintersect",
+        "description": "04-circlesintersect-Python.circlesintersect",
+        "peekOfCode": "def fun_circlesintersect(x1, y1, r1, x2, y2, r2):\n    d=((x1-x2)**2+(y1-y2)**2)\n    c=(r1+r2)*(r1+r2)\n    if d == c:\n        return True\n    elif d>c:\n        return False\n    elif d<c:\n        return True\n    else:",
+        "detail": "04-circlesintersect-Python.circlesintersect",
+        "documentation": {}
+    },
+    {
+        "label": "test_fun_circlesintersect",
+        "kind": 2,
+        "importPath": "04-circlesintersect-Python.test_circlesintersect",
+        "description": "04-circlesintersect-Python.test_circlesintersect",
+        "peekOfCode": "def test_fun_circlesintersect(check, result):\n    assert check == result",
+        "detail": "04-circlesintersect-Python.test_circlesintersect",
+        "documentation": {}
+    }
+]
