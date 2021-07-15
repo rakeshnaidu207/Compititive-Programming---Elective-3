@@ -1,0 +1,46 @@
+[
+    {
+        "label": "os,sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.sys",
+        "description": "os.sys",
+        "detail": "os.sys",
+        "documentation": {}
+    },
+    {
+        "label": "fun_applycaesarcipher",
+        "importPath": "applycaesarcipher",
+        "description": "applycaesarcipher",
+        "isExtraImport": true,
+        "detail": "applycaesarcipher",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "fun_applycaesarcipher",
+        "kind": 2,
+        "importPath": "03-applycaesarcipher-Python.applycaesarcipher",
+        "description": "03-applycaesarcipher-Python.applycaesarcipher",
+        "peekOfCode": "def fun_applycaesarcipher(msg, shift):\n    result=\"\"\n    for i in range(0,len(msg)):\n        char = msg[i]\n        if (char==\" \"):\n            result+=\" \"\n        # for uppercase characters\n        elif (char.isupper()):\n            # char is used to convert the integer(acsi values) to char\n            # ord is used to convert the char to int(asci values)",
+        "detail": "03-applycaesarcipher-Python.applycaesarcipher",
+        "documentation": {}
+    },
+    {
+        "label": "test_fun_applycaesarcipher",
+        "kind": 2,
+        "importPath": "03-applycaesarcipher-Python.test_applycaesarcipher",
+        "description": "03-applycaesarcipher-Python.test_applycaesarcipher",
+        "peekOfCode": "def test_fun_applycaesarcipher(msg, shift, result):\n    assert fun_applycaesarcipher(msg, shift) == result",
+        "detail": "03-applycaesarcipher-Python.test_applycaesarcipher",
+        "documentation": {}
+    }
+]

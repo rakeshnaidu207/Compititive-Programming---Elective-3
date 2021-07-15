@@ -11,7 +11,22 @@
 
 
 def fun_applycaesarcipher(msg, shift):
-	return ""
+    result=""
+    for i in range(0,len(msg)):
+        char = msg[i]
+        if (char==" "):
+            result+=" "
+        # for uppercase characters
+        elif (char.isupper()):
+            # char is used to convert the integer(acsi values) to char
+            # ord is used to convert the char to int(asci values)
+            result += chr((ord(char) + shift-65) % 26 + 65)
+ 
+        # for lowercase characters
+        elif (char.islower()):
+            result += chr((ord(char) + shift - 97) % 26 + 97)
+ 
+    return result
 
 
 
