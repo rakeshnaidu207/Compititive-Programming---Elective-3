@@ -1,0 +1,46 @@
+[
+    {
+        "label": "os,sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.sys",
+        "description": "os.sys",
+        "detail": "os.sys",
+        "documentation": {}
+    },
+    {
+        "label": "mostfrequentdigit",
+        "importPath": "mostfrequentdigit",
+        "description": "mostfrequentdigit",
+        "isExtraImport": true,
+        "detail": "mostfrequentdigit",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "mostfrequentdigit",
+        "kind": 2,
+        "importPath": "10-mostfrequencydigit-Python.mostfrequentdigit",
+        "description": "10-mostfrequencydigit-Python.mostfrequentdigit",
+        "peekOfCode": "def mostfrequentdigit(n):\n\t# your code goes here\n\tpass",
+        "detail": "10-mostfrequencydigit-Python.mostfrequentdigit",
+        "documentation": {}
+    },
+    {
+        "label": "test_mostfrequentdigit",
+        "kind": 2,
+        "importPath": "10-mostfrequencydigit-Python.test_mostfrequentdigit",
+        "description": "10-mostfrequencydigit-Python.test_mostfrequentdigit",
+        "peekOfCode": "def test_mostfrequentdigit(n, result):\n    assert mostfrequentdigit(n) == result",
+        "detail": "10-mostfrequencydigit-Python.test_mostfrequentdigit",
+        "documentation": {}
+    }
+]
