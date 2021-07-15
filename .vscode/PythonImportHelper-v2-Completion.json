@@ -56,7 +56,7 @@
         "kind": 6,
         "importPath": "01-stacks-Python.stacks",
         "description": "01-stacks-Python.stacks",
-        "peekOfCode": "class stack(object):\n    def __init__(self,top=None):\n        self.ll = LinkedList(top)\n    def push(self, new_element):\n        \"Push (add) a new element onto the top of the stack\"\n        self.ll.insert_first(new_element)\n    def pop(self):\n        \"Pop (remove) the first element off the top of the stack and return it\"\n        self.ll.delete_first()",
+        "peekOfCode": "class stack(object):\n    def __init__(self,top=None):\n        self.ll = LinkedList(top)\n    def push(self, new_element):\n        \"Push (add) a new element onto the top of the stack\"\n        self.ll.insert_first(new_element)\n    def pop(self):\n        \"Pop (remove) the first element off the top of the stack and return it\"\n        return self.ll.delete_first()",
         "detail": "01-stacks-Python.stacks",
         "documentation": {}
     },
