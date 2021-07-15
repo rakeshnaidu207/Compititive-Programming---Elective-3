@@ -1,0 +1,55 @@
+[
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "isrighttriangle",
+        "importPath": "isrighttriangle",
+        "description": "isrighttriangle",
+        "isExtraImport": true,
+        "detail": "isrighttriangle",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "isrighttriangle",
+        "kind": 2,
+        "importPath": "15-isrighttriangle-Python.isrighttriangle",
+        "description": "15-isrighttriangle-Python.isrighttriangle",
+        "peekOfCode": "def isrighttriangle(x1, y1, x2, y2, x3, y3):\n    A= ((x1-x2)**2)+((y1-y2)**2)\n    B= ((x1-x3)**2)+((y1-y3)**2)\n    C= ((x2-x3)**2)+((y2-y3)**2)\n    if((A>0 and B>0 and C>0) and (A==(B+C) or B==(A+C) or C==(A+B))):\n\t    return True\n    else:  \n\t    return False",
+        "detail": "15-isrighttriangle-Python.isrighttriangle",
+        "documentation": {}
+    },
+    {
+        "label": "test_isrighttriangle",
+        "kind": 2,
+        "importPath": "15-isrighttriangle-Python.test_isrighttriangle",
+        "description": "15-isrighttriangle-Python.test_isrighttriangle",
+        "peekOfCode": "def test_isrighttriangle(x, y, z, x1, y1, z1, check):\n    assert isrighttriangle(x, y, z, x1, y1, z1) == check",
+        "detail": "15-isrighttriangle-Python.test_isrighttriangle",
+        "documentation": {}
+    }
+]
