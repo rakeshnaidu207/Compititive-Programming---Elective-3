@@ -3,5 +3,7 @@
 # that occurs most frequently in it, with ties going to the smaller digit.
 
 def mostfrequentdigit(n):
+    s=list(n)
+    return max(set(s), key = s.count)
 	# your code goes here
-	pass
+	
