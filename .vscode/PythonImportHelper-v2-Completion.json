@@ -1,0 +1,55 @@
+[
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "lineintersection",
+        "importPath": "lineintersection",
+        "description": "lineintersection",
+        "isExtraImport": true,
+        "detail": "lineintersection",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sys",
+        "description": "sys",
+        "detail": "sys",
+        "documentation": {}
+    },
+    {
+        "label": "lineintersection",
+        "kind": 2,
+        "importPath": "18-lineintersection-Python.lineintersection",
+        "description": "18-lineintersection-Python.lineintersection",
+        "peekOfCode": "def lineintersection(m1, b1, m2, b2):\n   y=(((m1/m2)*b2)-(b1))/((m1/m2)-(1))\n   x=((y-b1)/m1)\n   if (((m1/m2)-(1))<=0 ):\n       return None\n   else:\n       return int(x)",
+        "detail": "18-lineintersection-Python.lineintersection",
+        "documentation": {}
+    },
+    {
+        "label": "test_lineintersection",
+        "kind": 2,
+        "importPath": "18-lineintersection-Python.test_lineintersection",
+        "description": "18-lineintersection-Python.test_lineintersection",
+        "peekOfCode": "def test_lineintersection(m1, b1, m2, b2, check):\n    assert lineintersection(m1, b1, m2, b2) == check",
+        "detail": "18-lineintersection-Python.test_lineintersection",
+        "documentation": {}
+    }
+]
