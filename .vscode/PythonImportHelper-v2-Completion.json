@@ -1,0 +1,46 @@
+[
+    {
+        "label": "os,sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.sys",
+        "description": "os.sys",
+        "detail": "os.sys",
+        "documentation": {}
+    },
+    {
+        "label": "hasconsecutivedigits",
+        "importPath": "hasconsecutivedigits",
+        "description": "hasconsecutivedigits",
+        "isExtraImport": true,
+        "detail": "hasconsecutivedigits",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "hasconsecutivedigits",
+        "kind": 2,
+        "importPath": "09-hasconsecutivedigits-Python.hasconsecutivedigits",
+        "description": "09-hasconsecutivedigits-Python.hasconsecutivedigits",
+        "peekOfCode": "def hasconsecutivedigits(x):\n    x=abs(x)\n    prev_digit= -1\n    while (x > 0):\n        one_digit = x%10\n        x //=10\n        if (prev_digit == one_digit):\n            return True\n        prev_digit=one_digit\n    return False",
+        "detail": "09-hasconsecutivedigits-Python.hasconsecutivedigits",
+        "documentation": {}
+    },
+    {
+        "label": "test_hasconsecutivedigits",
+        "kind": 2,
+        "importPath": "09-hasconsecutivedigits-Python.test_hasconsecutivedigits",
+        "description": "09-hasconsecutivedigits-Python.test_hasconsecutivedigits",
+        "peekOfCode": "def test_hasconsecutivedigits(n, result):\n    assert hasconsecutivedigits(n) == result",
+        "detail": "09-hasconsecutivedigits-Python.test_hasconsecutivedigits",
+        "documentation": {}
+    }
+]
