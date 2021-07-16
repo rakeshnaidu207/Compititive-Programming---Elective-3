@@ -1,0 +1,46 @@
+[
+    {
+        "label": "os,sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.sys",
+        "description": "os.sys",
+        "detail": "os.sys",
+        "documentation": {}
+    },
+    {
+        "label": "fun_get_kth_digit",
+        "importPath": "get_kth_digit",
+        "description": "get_kth_digit",
+        "isExtraImport": true,
+        "detail": "get_kth_digit",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "fun_get_kth_digit",
+        "kind": 2,
+        "importPath": "06-get_kth_digit-Python.get_kth_digit",
+        "description": "06-get_kth_digit-Python.get_kth_digit",
+        "peekOfCode": "def fun_get_kth_digit(digit, k):\n    digit = abs(digit)\n    if (k == 0):\n        return (digit%10)\n    elif (k == 1):\n        return int((digit%100)/10)\n    elif (k == 2):\n        return int((digit%1000)/100)\n    else:\n        return 0",
+        "detail": "06-get_kth_digit-Python.get_kth_digit",
+        "documentation": {}
+    },
+    {
+        "label": "test_fun_get_kth_digit",
+        "kind": 2,
+        "importPath": "06-get_kth_digit-Python.test_get_kth_digit",
+        "description": "06-get_kth_digit-Python.test_get_kth_digit",
+        "peekOfCode": "def test_fun_get_kth_digit(Number, digit, result):\n    assert fun_get_kth_digit(Number, digit) == result",
+        "detail": "06-get_kth_digit-Python.test_get_kth_digit",
+        "documentation": {}
+    }
+]
