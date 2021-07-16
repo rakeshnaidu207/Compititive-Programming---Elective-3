@@ -1,0 +1,46 @@
+[
+    {
+        "label": "os,sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.sys",
+        "description": "os.sys",
+        "detail": "os.sys",
+        "documentation": {}
+    },
+    {
+        "label": "isperfectsquare",
+        "importPath": "isperfectsquare",
+        "description": "isperfectsquare",
+        "isExtraImport": true,
+        "detail": "isperfectsquare",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "isperfectsquare",
+        "kind": 2,
+        "importPath": "09-isperfectsquare-Python.isperfectsquare",
+        "description": "09-isperfectsquare-Python.isperfectsquare",
+        "peekOfCode": "def isperfectsquare(n):\n    import math\n    if(n>=0) and (n==((math.sqrt(n))* (math.sqrt(n)))):\n        return True\n    else :\n        return False",
+        "detail": "09-isperfectsquare-Python.isperfectsquare",
+        "documentation": {}
+    },
+    {
+        "label": "test_isperfectsquare",
+        "kind": 2,
+        "importPath": "09-isperfectsquare-Python.test_isperfectsquare",
+        "description": "09-isperfectsquare-Python.test_isperfectsquare",
+        "peekOfCode": "def test_isperfectsquare(row, result):\n    assert isperfectsquare(row) == result",
+        "detail": "09-isperfectsquare-Python.test_isperfectsquare",
+        "documentation": {}
+    }
+]
