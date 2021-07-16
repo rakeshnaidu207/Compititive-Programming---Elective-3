@@ -7,7 +7,7 @@
 def lineintersection(m1, b1, m2, b2):
    y=(((m1/m2)*b2)-(b1))/((m1/m2)-(1))
    x=((y-b1)/m1)
-   if (((m1/m2)-(1))<=0 ):
+   if (m1<=m2):
        return None
    else:
        return int(x)

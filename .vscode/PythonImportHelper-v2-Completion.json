@@ -39,7 +39,7 @@
         "kind": 2,
         "importPath": "18-lineintersection-Python.lineintersection",
         "description": "18-lineintersection-Python.lineintersection",
-        "peekOfCode": "def lineintersection(m1, b1, m2, b2):\n   y=(((m1/m2)*b2)-(b1))/((m1/m2)-(1))\n   x=((y-b1)/m1)\n   if (((m1/m2)-(1))<=0 ):\n       return None\n   else:\n       return int(x)",
+        "peekOfCode": "def lineintersection(m1, b1, m2, b2):\n   y=(((m1/m2)*b2)-(b1))/((m1/m2)-(1))\n   x=((y-b1)/m1)\n   if (m1<=m2):\n       return None\n   else:\n       return int(x)",
         "detail": "18-lineintersection-Python.lineintersection",
         "documentation": {}
     },
