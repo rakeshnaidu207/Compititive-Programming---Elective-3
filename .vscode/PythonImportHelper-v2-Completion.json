@@ -1,0 +1,11 @@
+[
+    {
+        "label": "removeRowAndCol",
+        "kind": 2,
+        "importPath": "removeRowAndCol",
+        "description": "removeRowAndCol",
+        "peekOfCode": "def removeRowAndCol(L, row, col):\n    # Your code goes here...\n    pass\n# Write your own test cases.",
+        "detail": "removeRowAndCol",
+        "documentation": {}
+    }
+]
