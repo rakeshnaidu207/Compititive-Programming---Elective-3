@@ -1,0 +1,82 @@
+[
+    {
+        "label": "os,sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.sys",
+        "description": "os.sys",
+        "detail": "os.sys",
+        "documentation": {}
+    },
+    {
+        "label": "Queue",
+        "importPath": "queues",
+        "description": "queues",
+        "isExtraImport": true,
+        "detail": "queues",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "Queue",
+        "kind": 6,
+        "importPath": "02-queues-Python.queues",
+        "description": "02-queues-Python.queues",
+        "peekOfCode": "class Queue:\n    def __init__(self, head=None):\n        self.storage = [head]\n    def enqueue(self, new_element):\n        self.storage.append(new_element)\n    def peek(self):\n        return self.storage[0]\n    def dequeue(self):\n        return self.storage.pop(0)",
+        "detail": "02-queues-Python.queues",
+        "documentation": {}
+    },
+    {
+        "label": "test_peek1",
+        "kind": 2,
+        "importPath": "02-queues-Python.test_solution",
+        "description": "02-queues-Python.test_solution",
+        "peekOfCode": "def test_peek1(result):    \n    assert q.peek() == result\n@pytest.mark.parametrize(\"result\",[(1)])\ndef test_dequeue2(result):    \n    assert q.dequeue() == result\n    q.enqueue(4)\n@pytest.mark.parametrize(\"result\",[(2),(3),(4)])\ndef test_dequeue1(result):    \n    assert q.dequeue() == result\n@pytest.mark.parametrize(\"result\",[(5)])",
+        "detail": "02-queues-Python.test_solution",
+        "documentation": {}
+    },
+    {
+        "label": "test_dequeue2",
+        "kind": 2,
+        "importPath": "02-queues-Python.test_solution",
+        "description": "02-queues-Python.test_solution",
+        "peekOfCode": "def test_dequeue2(result):    \n    assert q.dequeue() == result\n    q.enqueue(4)\n@pytest.mark.parametrize(\"result\",[(2),(3),(4)])\ndef test_dequeue1(result):    \n    assert q.dequeue() == result\n@pytest.mark.parametrize(\"result\",[(5)])\ndef test_peek2(result): \n    q.enqueue(5)   \n    assert q.peek() == result",
+        "detail": "02-queues-Python.test_solution",
+        "documentation": {}
+    },
+    {
+        "label": "test_dequeue1",
+        "kind": 2,
+        "importPath": "02-queues-Python.test_solution",
+        "description": "02-queues-Python.test_solution",
+        "peekOfCode": "def test_dequeue1(result):    \n    assert q.dequeue() == result\n@pytest.mark.parametrize(\"result\",[(5)])\ndef test_peek2(result): \n    q.enqueue(5)   \n    assert q.peek() == result",
+        "detail": "02-queues-Python.test_solution",
+        "documentation": {}
+    },
+    {
+        "label": "test_peek2",
+        "kind": 2,
+        "importPath": "02-queues-Python.test_solution",
+        "description": "02-queues-Python.test_solution",
+        "peekOfCode": "def test_peek2(result): \n    q.enqueue(5)   \n    assert q.peek() == result",
+        "detail": "02-queues-Python.test_solution",
+        "documentation": {}
+    },
+    {
+        "label": "q",
+        "kind": 5,
+        "importPath": "02-queues-Python.test_solution",
+        "description": "02-queues-Python.test_solution",
+        "peekOfCode": "q = Queue(1)\nq.enqueue(2)\nq.enqueue(3)\n@pytest.mark.parametrize(\"result\",[(1)])\ndef test_peek1(result):    \n    assert q.peek() == result\n@pytest.mark.parametrize(\"result\",[(1)])\ndef test_dequeue2(result):    \n    assert q.dequeue() == result\n    q.enqueue(4)",
+        "detail": "02-queues-Python.test_solution",
+        "documentation": {}
+    }
+]

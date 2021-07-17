@@ -12,12 +12,7 @@ class Queue:
         self.storage.append(new_element)
 
     def peek(self):
-        if len(self.storage)==0:
-            return None
-        else:
-            return self.storage[0]
+        return self.storage[0]
 
     def dequeue(self):
-        if len(self.storage)!=0:
-            self.storage.pop(0)
-            return self.storage[0]
+        return self.storage.pop(0)
