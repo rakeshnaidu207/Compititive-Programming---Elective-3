@@ -6,13 +6,17 @@
 
 
 def fun_get_kth_digit(digit, k):
-    digit = abs(digit)
-    if (k == 0):
-        return (digit%10)
-    elif (k == 1):
-        return int((digit%100)/10)
-    elif (k == 2):
-        return int((digit%1000)/100)
-    else:
+    l=[]
+    count=0
+    digit=abs(digit)
+    while(digit>0):#495,1
+        x=digit%10
+        l.append(x)
+        digit=digit//10
+        count+=1
+    if(k>len(l)-1):
         return 0
+    return l[k]
+
+
 
