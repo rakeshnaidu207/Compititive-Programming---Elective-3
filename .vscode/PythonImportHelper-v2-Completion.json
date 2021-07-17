@@ -1,5 +1,14 @@
 [
     {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
         "label": "os,sys",
         "kind": 6,
         "isExtraImport": true,
@@ -30,7 +39,7 @@
         "kind": 2,
         "importPath": "09-isperfectsquare-Python.isperfectsquare",
         "description": "09-isperfectsquare-Python.isperfectsquare",
-        "peekOfCode": "def isperfectsquare(n):\n    import math\n    if(n>=0) and (n==((math.sqrt(n))* (math.sqrt(n)))):\n        return True\n    else :\n        return False",
+        "peekOfCode": "def isperfectsquare(n):\n    if(n>=0) and (n==(int((math.sqrt(n))* (math.sqrt(n))))):\n        return True\n    elif(type(n)==str or type(n)==float or n<0):\n        return False",
         "detail": "09-isperfectsquare-Python.isperfectsquare",
         "documentation": {}
     },
