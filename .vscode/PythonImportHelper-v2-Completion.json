@@ -4,7 +4,7 @@
         "kind": 2,
         "importPath": "removeRowAndCol",
         "description": "removeRowAndCol",
-        "peekOfCode": "def removeRowAndCol(L, row, col):\n    # Your code goes here...\n    pass\n# Write your own test cases.",
+        "peekOfCode": "def removeRowAndCol(L, row, col):\n    L.pop(row)\n    for i in range(len(L)):\n        L[i].pop(col)\n    return (L)\nL=[ [ 2, 3, 4, 5],\n      [ 8, 7, 6, 5],\n      [ 0, 1, 2, 3] ]\nrow=1\ncol=2",
         "detail": "removeRowAndCol",
         "documentation": {}
     }
