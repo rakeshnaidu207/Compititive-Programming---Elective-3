@@ -1,0 +1,82 @@
+[
+    {
+        "label": "os,sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.sys",
+        "description": "os.sys",
+        "detail": "os.sys",
+        "documentation": {}
+    },
+    {
+        "label": "HashTable",
+        "importPath": "stringkeys",
+        "description": "stringkeys",
+        "isExtraImport": true,
+        "detail": "stringkeys",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "HashTable",
+        "kind": 6,
+        "importPath": "04-stringkeys-Python.stringkeys",
+        "description": "04-stringkeys-Python.stringkeys",
+        "peekOfCode": "class HashTable(object):\n    def __init__(self):\n        self.table = [None]*10000\n    def store(self, string):\n        \"\"\"Input a string that's stored in \n        the table.\"\"\"\n        # Hash Value = (ASCII Value of First Letter * 100) + ASCII Value of Second Letter \n        # Your code goes here\n        hv = self.calculate_hash_value(string)\n        if hv != -1:",
+        "detail": "04-stringkeys-Python.stringkeys",
+        "documentation": {}
+    },
+    {
+        "label": "test_classiness",
+        "kind": 2,
+        "importPath": "04-stringkeys-Python.test_solution",
+        "description": "04-stringkeys-Python.test_solution",
+        "peekOfCode": "def test_classiness(check, result):\n    assert check == result\nhash_table.store('UDACITY')\n@pytest.mark.parametrize('check,result',[\n    (hash_table.lookup('UDACITY'),8568)\n])\ndef test_classiness1(check, result):\n    assert check == result\n@pytest.mark.parametrize('check,result',[\n    (hash_table.calculate_hash_value('UDACIOUS'),8568),",
+        "detail": "04-stringkeys-Python.test_solution",
+        "documentation": {}
+    },
+    {
+        "label": "test_classiness1",
+        "kind": 2,
+        "importPath": "04-stringkeys-Python.test_solution",
+        "description": "04-stringkeys-Python.test_solution",
+        "peekOfCode": "def test_classiness1(check, result):\n    assert check == result\n@pytest.mark.parametrize('check,result',[\n    (hash_table.calculate_hash_value('UDACIOUS'),8568),\n    (hash_table.lookup('UDACIOUS'),-1)\n])\ndef test_classiness3(check, result):\n    assert check == result\nhash_table.store('UDACIOUS')\n@pytest.mark.parametrize('check,result',[",
+        "detail": "04-stringkeys-Python.test_solution",
+        "documentation": {}
+    },
+    {
+        "label": "test_classiness3",
+        "kind": 2,
+        "importPath": "04-stringkeys-Python.test_solution",
+        "description": "04-stringkeys-Python.test_solution",
+        "peekOfCode": "def test_classiness3(check, result):\n    assert check == result\nhash_table.store('UDACIOUS')\n@pytest.mark.parametrize('check,result',[\n    (hash_table.lookup('UDACIOUS'),8568)\n])\ndef test_classiness4(check, result):\n    assert check == result",
+        "detail": "04-stringkeys-Python.test_solution",
+        "documentation": {}
+    },
+    {
+        "label": "test_classiness4",
+        "kind": 2,
+        "importPath": "04-stringkeys-Python.test_solution",
+        "description": "04-stringkeys-Python.test_solution",
+        "peekOfCode": "def test_classiness4(check, result):\n    assert check == result",
+        "detail": "04-stringkeys-Python.test_solution",
+        "documentation": {}
+    },
+    {
+        "label": "hash_table",
+        "kind": 5,
+        "importPath": "04-stringkeys-Python.test_solution",
+        "description": "04-stringkeys-Python.test_solution",
+        "peekOfCode": "hash_table = HashTable()\n@pytest.mark.parametrize('check,result',[\n    (hash_table.calculate_hash_value('UDACITY'),8568),\n    (hash_table.lookup('UDACITY'),-1)\n])\ndef test_classiness(check, result):\n    assert check == result\nhash_table.store('UDACITY')\n@pytest.mark.parametrize('check,result',[\n    (hash_table.lookup('UDACITY'),8568)",
+        "detail": "04-stringkeys-Python.test_solution",
+        "documentation": {}
+    }
+]

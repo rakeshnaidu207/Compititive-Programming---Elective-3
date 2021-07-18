@@ -11,19 +11,32 @@ class HashTable(object):
         the table."""
         # Hash Value = (ASCII Value of First Letter * 100) + ASCII Value of Second Letter 
         # Your code goes here
-        pass
+        hv = self.calculate_hash_value(string)
+        if hv != -1:
+            if self.table[hv]:
+                self.table[hv].append(string)
+            else:
+                self.table[hv] = [string]
         
     def lookup(self, string):
         """Return the hash value if the
         string is already in the table.
         Return -1 otherwise."""
         # Your code goes here
-        pass
+        hv = self.calculate_hash_value(string)
+        if hv != -1:
+            if self.table[hv]:
+                if string in  self.table[hv]:
+                    return hv
+        return -1
+        
 
     def calculate_hash_value(self, string):
         """Helper function to calulate a
         hash value from a string."""
         # Your code goes here
-        pass
+        hv = (ord(string[0]) * 100) + ord(string[1])
+        return hv
+        
 
 
