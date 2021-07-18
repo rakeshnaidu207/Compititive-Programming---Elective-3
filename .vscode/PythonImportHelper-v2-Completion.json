@@ -1,0 +1,46 @@
+[
+    {
+        "label": "os,sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.sys",
+        "description": "os.sys",
+        "detail": "os.sys",
+        "documentation": {}
+    },
+    {
+        "label": "fun_kth_occurrences",
+        "importPath": "kth_occurrences",
+        "description": "kth_occurrences",
+        "isExtraImport": true,
+        "detail": "kth_occurrences",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "fun_kth_occurrences",
+        "kind": 2,
+        "importPath": "03-kth_occurrences-Python.kth_occurrences",
+        "description": "03-kth_occurrences-Python.kth_occurrences",
+        "peekOfCode": "def fun_kth_occurrences(s, n):\n\treturn 'a'",
+        "detail": "03-kth_occurrences-Python.kth_occurrences",
+        "documentation": {}
+    },
+    {
+        "label": "test_fun_kth_occurrences",
+        "kind": 2,
+        "importPath": "03-kth_occurrences-Python.test_kth_occurrences",
+        "description": "03-kth_occurrences-Python.test_kth_occurrences",
+        "peekOfCode": "def test_fun_kth_occurrences(s1, s2, result):\n    assert fun_kth_occurrences(s1, s2) == result",
+        "detail": "03-kth_occurrences-Python.test_kth_occurrences",
+        "documentation": {}
+    }
+]
