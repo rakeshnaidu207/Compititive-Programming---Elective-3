@@ -1,0 +1,55 @@
+[
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "os,sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.sys",
+        "description": "os.sys",
+        "detail": "os.sys",
+        "documentation": {}
+    },
+    {
+        "label": "fun_find_int_roots",
+        "importPath": "find_int_roots",
+        "description": "find_int_roots",
+        "isExtraImport": true,
+        "detail": "find_int_roots",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "fun_find_int_roots",
+        "kind": 2,
+        "importPath": "01-find_int_roots-Python.find_int_roots",
+        "description": "01-find_int_roots-Python.find_int_roots",
+        "peekOfCode": "def fun_find_int_roots(a, b, c):\n    x=((-b)+(math.sqrt(-b**2-4*a*c))/2*a)",
+        "detail": "01-find_int_roots-Python.find_int_roots",
+        "documentation": {}
+    },
+    {
+        "label": "test_fun_find_int_roots",
+        "kind": 2,
+        "importPath": "01-find_int_roots-Python.test_find_int_roots",
+        "description": "01-find_int_roots-Python.test_find_int_roots",
+        "peekOfCode": "def test_fun_find_int_roots(a, b, c, result):\n    assert fun_find_int_roots(a, b, c) == result",
+        "detail": "01-find_int_roots-Python.test_find_int_roots",
+        "documentation": {}
+    }
+]
