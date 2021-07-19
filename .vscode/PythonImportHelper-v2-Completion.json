@@ -1,0 +1,46 @@
+[
+    {
+        "label": "os,sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.sys",
+        "description": "os.sys",
+        "detail": "os.sys",
+        "documentation": {}
+    },
+    {
+        "label": "fun_numberofpoolballrows",
+        "importPath": "numberofpoolballrows",
+        "description": "numberofpoolballrows",
+        "isExtraImport": true,
+        "detail": "numberofpoolballrows",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "fun_numberofpoolballrows",
+        "kind": 2,
+        "importPath": "01-numberofpoolballrows-Python.numberofpoolballrows",
+        "description": "01-numberofpoolballrows-Python.numberofpoolballrows",
+        "peekOfCode": "def fun_numberofpoolballrows(balls):\n\treturn 0",
+        "detail": "01-numberofpoolballrows-Python.numberofpoolballrows",
+        "documentation": {}
+    },
+    {
+        "label": "test_fun_numberofpoolballrows",
+        "kind": 2,
+        "importPath": "01-numberofpoolballrows-Python.test_numberofpoolballrows",
+        "description": "01-numberofpoolballrows-Python.test_numberofpoolballrows",
+        "peekOfCode": "def test_fun_numberofpoolballrows(n, result):\n    assert fun_numberofpoolballrows(n) == result",
+        "detail": "01-numberofpoolballrows-Python.test_numberofpoolballrows",
+        "documentation": {}
+    }
+]
