@@ -30,7 +30,7 @@
         "kind": 2,
         "importPath": "10-mostfrequencydigit-Python.mostfrequentdigit",
         "description": "10-mostfrequencydigit-Python.mostfrequentdigit",
-        "peekOfCode": "def mostfrequentdigit(n):\n    s=list(n)\n    return max(set(s), key = s.count)\n\t# your code goes here",
+        "peekOfCode": "def mostfrequentdigit(n):\n     p = abs(n)\n     if p == 0:\n        return 0\n     else:\n        while(p>0):\n            num=p\n            p1 = num%10\n            num = num//10\n            p2= num%10",
         "detail": "10-mostfrequencydigit-Python.mostfrequentdigit",
         "documentation": {}
     },
