@@ -1,0 +1,46 @@
+[
+    {
+        "label": "os,sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.sys",
+        "description": "os.sys",
+        "detail": "os.sys",
+        "documentation": {}
+    },
+    {
+        "label": "numberofpoolballs",
+        "importPath": "numberofpoolballs",
+        "description": "numberofpoolballs",
+        "isExtraImport": true,
+        "detail": "numberofpoolballs",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "numberofpoolballs",
+        "kind": 2,
+        "importPath": "10-numberofpoolballs-Python.numberofpoolballs",
+        "description": "10-numberofpoolballs-Python.numberofpoolballs",
+        "peekOfCode": "def numberofpoolballs(rows):\n    n=rows*(rows+1)//2\n    return n",
+        "detail": "10-numberofpoolballs-Python.numberofpoolballs",
+        "documentation": {}
+    },
+    {
+        "label": "test_numberofpoolballs",
+        "kind": 2,
+        "importPath": "10-numberofpoolballs-Python.test_numberofpoolballs",
+        "description": "10-numberofpoolballs-Python.test_numberofpoolballs",
+        "peekOfCode": "def test_numberofpoolballs(n, result):\n    assert numberofpoolballs(n) == result",
+        "detail": "10-numberofpoolballs-Python.test_numberofpoolballs",
+        "documentation": {}
+    }
+]
