@@ -1,0 +1,72 @@
+[
+    {
+        "label": "os,sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.sys",
+        "description": "os.sys",
+        "detail": "os.sys",
+        "documentation": {}
+    },
+    {
+        "label": "fabricyards",
+        "importPath": "fabricyards",
+        "description": "fabricyards",
+        "isExtraImport": true,
+        "detail": "fabricyards",
+        "documentation": {}
+    },
+    {
+        "label": "fabricexcess",
+        "importPath": "fabricyards",
+        "description": "fabricyards",
+        "isExtraImport": true,
+        "detail": "fabricyards",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "fabricyards",
+        "kind": 2,
+        "importPath": "02-fabricyards-Python.fabricyards",
+        "description": "02-fabricyards-Python.fabricyards",
+        "peekOfCode": "def fabricyards(inches):\n\t# Your code goes here...\n\treturn 1\ndef fabricexcess(inches):\n\t# Your code goes here...\n\treturn 1",
+        "detail": "02-fabricyards-Python.fabricyards",
+        "documentation": {}
+    },
+    {
+        "label": "fabricexcess",
+        "kind": 2,
+        "importPath": "02-fabricyards-Python.fabricyards",
+        "description": "02-fabricyards-Python.fabricyards",
+        "peekOfCode": "def fabricexcess(inches):\n\t# Your code goes here...\n\treturn 1",
+        "detail": "02-fabricyards-Python.fabricyards",
+        "documentation": {}
+    },
+    {
+        "label": "test_fabricyards",
+        "kind": 2,
+        "importPath": "02-fabricyards-Python.test_fabricyards",
+        "description": "02-fabricyards-Python.test_fabricyards",
+        "peekOfCode": "def test_fabricyards(a, result):\n    assert fabricyards(a) == result\n@pytest.mark.parametrize('a, result',[\n    (0,0),(1,35),(35,1),(36,0),(37,35),(38,34),(72,0),(73,35)\n])\ndef test_fabricexcess(a, result):\n    assert fabricexcess(a) == result",
+        "detail": "02-fabricyards-Python.test_fabricyards",
+        "documentation": {}
+    },
+    {
+        "label": "test_fabricexcess",
+        "kind": 2,
+        "importPath": "02-fabricyards-Python.test_fabricyards",
+        "description": "02-fabricyards-Python.test_fabricyards",
+        "peekOfCode": "def test_fabricexcess(a, result):\n    assert fabricexcess(a) == result",
+        "detail": "02-fabricyards-Python.test_fabricyards",
+        "documentation": {}
+    }
+]
