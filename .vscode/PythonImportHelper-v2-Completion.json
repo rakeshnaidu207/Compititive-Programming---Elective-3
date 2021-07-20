@@ -1,0 +1,46 @@
+[
+    {
+        "label": "os,sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.sys",
+        "description": "os.sys",
+        "detail": "os.sys",
+        "documentation": {}
+    },
+    {
+        "label": "ismostlymagicsquare",
+        "importPath": "ismostlymagicsquare",
+        "description": "ismostlymagicsquare",
+        "isExtraImport": true,
+        "detail": "ismostlymagicsquare",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "ismostlymagicsquare",
+        "kind": 2,
+        "importPath": "11-ismostlymagicsquare-Python.ismostlymagicsquare",
+        "description": "11-ismostlymagicsquare-Python.ismostlymagicsquare",
+        "peekOfCode": "def ismostlymagicsquare(a):\n    n=len(a)\n    if n==1:\n        return True\n    x=0\n    y=0\n    for i in range(n):\n        x+=a[i][i]\n        y+=a[i][n-i-1]\n    if not (x==y):",
+        "detail": "11-ismostlymagicsquare-Python.ismostlymagicsquare",
+        "documentation": {}
+    },
+    {
+        "label": "test_ismostlymagicsquare",
+        "kind": 2,
+        "importPath": "11-ismostlymagicsquare-Python.test_ismostlymagicsquare",
+        "description": "11-ismostlymagicsquare-Python.test_ismostlymagicsquare",
+        "peekOfCode": "def test_ismostlymagicsquare(a, result):\n\tassert ismostlymagicsquare(a) == result",
+        "detail": "11-ismostlymagicsquare-Python.test_ismostlymagicsquare",
+        "documentation": {}
+    }
+]
