@@ -10,15 +10,10 @@
 # lookAndSay([3,3,8,3,3,3,3]) == [(2,3),(1,8),(4,3)]
 
 def lookandsay(a):
-    b=[]
-    count=0
-    for i in range(len(a)):
-        if a[i]==a[i+1]:
-            count+=1
-            b.append((count,i))
-            return b
-        if len(a)==0:
-            return []
-        else:
-            b.append(i)
-            return b
+    dict={}
+    for i in a:
+        x=a.count(i)
+        dict[i]=x
+    print(dict)
+    list = [(v,k) for k, v in dict.items()]
+    return list

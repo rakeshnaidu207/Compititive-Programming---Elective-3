@@ -30,7 +30,7 @@
         "kind": 2,
         "importPath": "06-lookandsay-Python.lookandsay",
         "description": "06-lookandsay-Python.lookandsay",
-        "peekOfCode": "def lookandsay(a):\n    b=[]\n    count=0\n    for i in range(len(a)):\n        if a[i]==a[i+1]:\n            count+=1\n            b.append((count,i))\n            return b\n        if len(a)==0:\n            return []",
+        "peekOfCode": "def lookandsay(a):\n    dict={}\n    for i in a:\n        x=a.count(i)\n        dict[i]=x\n    print(dict)\n    list = [(v,k) for k, v in dict.items()]\n    return list",
         "detail": "06-lookandsay-Python.lookandsay",
         "documentation": {}
     },
