@@ -1,0 +1,46 @@
+[
+    {
+        "label": "os,sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.sys",
+        "description": "os.sys",
+        "detail": "os.sys",
+        "documentation": {}
+    },
+    {
+        "label": "smallestdifference",
+        "importPath": "smallestdifference",
+        "description": "smallestdifference",
+        "isExtraImport": true,
+        "detail": "smallestdifference",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "smallestdifference",
+        "kind": 2,
+        "importPath": "11-smallestdifference-Python.smallestdifference",
+        "description": "11-smallestdifference-Python.smallestdifference",
+        "peekOfCode": "def smallestdifference(a):\n    if(len(a)==0):\n        return (-1)\n    d=10**20\n    for i in range(len(a)-1):\n        for j in range(i+1,len(a)):\n            if(abs(a[i]-a[j])<d):\n                d=abs(a[i]-a[j])\n    return (d)",
+        "detail": "11-smallestdifference-Python.smallestdifference",
+        "documentation": {}
+    },
+    {
+        "label": "test_smallestdifference",
+        "kind": 2,
+        "importPath": "11-smallestdifference-Python.test_smallestdifference",
+        "description": "11-smallestdifference-Python.test_smallestdifference",
+        "peekOfCode": "def test_smallestdifference(input_value, result):    \n    assert smallestdifference(input_value) == result",
+        "detail": "11-smallestdifference-Python.test_smallestdifference",
+        "documentation": {}
+    }
+]
