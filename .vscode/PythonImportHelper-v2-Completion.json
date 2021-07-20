@@ -39,7 +39,7 @@
         "kind": 2,
         "importPath": "01-find_int_roots-Python.find_int_roots",
         "description": "01-find_int_roots-Python.find_int_roots",
-        "peekOfCode": "def fun_find_int_roots(a, b, c):\n    x=((-b)+(math.sqrt(-b**2-4*a*c))/2*a)",
+        "peekOfCode": "def fun_find_int_roots(a, b, c):\n    dis = b * b - 4 * a * c \n    sqrt_val = math.sqrt(abs(dis))\n    x=int(((-b + sqrt_val)/(2 * a)))\n    y=int(((-b - sqrt_val)/(2 * a)))\n    return (y,x)",
         "detail": "01-find_int_roots-Python.find_int_roots",
         "documentation": {}
     },
