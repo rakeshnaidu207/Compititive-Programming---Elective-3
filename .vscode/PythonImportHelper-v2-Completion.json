@@ -1,0 +1,46 @@
+[
+    {
+        "label": "os,sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.sys",
+        "description": "os.sys",
+        "detail": "os.sys",
+        "documentation": {}
+    },
+    {
+        "label": "lookandsay",
+        "importPath": "lookandsay",
+        "description": "lookandsay",
+        "isExtraImport": true,
+        "detail": "lookandsay",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "lookandsay",
+        "kind": 2,
+        "importPath": "06-lookandsay-Python.lookandsay",
+        "description": "06-lookandsay-Python.lookandsay",
+        "peekOfCode": "def lookandsay(a):\n    b=[]\n    count=0\n    for i in range(len(a)):\n        if a[i]==a[i+1]:\n            count+=1\n            b.append((count,i))\n            return b\n        if len(a)==0:\n            return []",
+        "detail": "06-lookandsay-Python.lookandsay",
+        "documentation": {}
+    },
+    {
+        "label": "test_lookandsay",
+        "kind": 2,
+        "importPath": "06-lookandsay-Python.test_lookandsay",
+        "description": "06-lookandsay-Python.test_lookandsay",
+        "peekOfCode": "def test_lookandsay(a, result):\n    assert lookandsay(a) == result",
+        "detail": "06-lookandsay-Python.test_lookandsay",
+        "documentation": {}
+    }
+]
