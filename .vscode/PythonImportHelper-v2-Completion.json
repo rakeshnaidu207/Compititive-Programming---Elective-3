@@ -30,7 +30,7 @@
         "kind": 2,
         "importPath": "11-smallestdifference-Python.smallestdifference",
         "description": "11-smallestdifference-Python.smallestdifference",
-        "peekOfCode": "def smallestdifference(a):\n    if(len(a)==0):\n        return (-1)\n    d=10**20\n    for i in range(len(a)-1):\n        for j in range(i+1,len(a)):\n            if(abs(a[i]-a[j])<d):\n                d=abs(a[i]-a[j])\n    return (d)",
+        "peekOfCode": "def smallestdifference(a):\n    if(len(a)==0):\n        return (-1)\n    d=10**20\n    for i in range(len(a)-1):\n        for j in range(i+1,len(a)):\n            if(abs(a[i]-a[j])<d):\n                d=abs(a[i]-a[j])\n    return ()",
         "detail": "11-smallestdifference-Python.smallestdifference",
         "documentation": {}
     },
