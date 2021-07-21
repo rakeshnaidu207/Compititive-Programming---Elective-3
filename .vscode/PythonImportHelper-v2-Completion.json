@@ -1,0 +1,46 @@
+[
+    {
+        "label": "os,sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.sys",
+        "description": "os.sys",
+        "detail": "os.sys",
+        "documentation": {}
+    },
+    {
+        "label": "nthpowerfulnumber",
+        "importPath": "nthpowerfulnumber",
+        "description": "nthpowerfulnumber",
+        "isExtraImport": true,
+        "detail": "nthpowerfulnumber",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "nthpowerfulnumber",
+        "kind": 2,
+        "importPath": "07-nth_powerfulnumber-Python.nthpowerfulnumber",
+        "description": "07-nth_powerfulnumber-Python.nthpowerfulnumber",
+        "peekOfCode": "def nthpowerfulnumber(n):\n\t# Your code goes here\n\tpass",
+        "detail": "07-nth_powerfulnumber-Python.nthpowerfulnumber",
+        "documentation": {}
+    },
+    {
+        "label": "test_nthpowerfulnumber",
+        "kind": 2,
+        "importPath": "07-nth_powerfulnumber-Python.test_nthpowerfulnumber",
+        "description": "07-nth_powerfulnumber-Python.test_nthpowerfulnumber",
+        "peekOfCode": "def test_nthpowerfulnumber(x, result):\n\tassert nthpowerfulnumber(x) == result",
+        "detail": "07-nth_powerfulnumber-Python.test_nthpowerfulnumber",
+        "documentation": {}
+    }
+]
