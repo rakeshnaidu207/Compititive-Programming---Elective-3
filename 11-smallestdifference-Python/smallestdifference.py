@@ -12,4 +12,4 @@ def smallestdifference(a):
         for j in range(i+1,len(a)):
             if(abs(a[i]-a[j])<d):
                 d=abs(a[i]-a[j])
-    return (d)
+    return ()
