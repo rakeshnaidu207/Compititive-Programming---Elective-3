@@ -10,10 +10,21 @@
 # lookAndSay([3,3,8,3,3,3,3]) == [(2,3),(1,8),(4,3)]
 
 def lookandsay(a):
-    dict={}
-    for i in a:
-        x=a.count(i)
-        dict[i]=x
-    print(dict)
-    list = [(v,k) for k, v in dict.items()]
-    return list
+    if len(a)==0:
+        return []
+    l=[]
+    i=0
+    while i<len(a):
+        count=1
+        flag=0
+        while i<len(a)-1 and a[i]==a[i+1]:
+            count+=1
+            ele=a[i]
+            i=i+1
+            flag=1
+        if flag==1:
+            l.append((count,ele))
+        else:   
+            l.append((count,a[i])) 
+        i=i+1
+    return(l)  
