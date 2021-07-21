@@ -1,0 +1,55 @@
+[
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "os,sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.sys",
+        "description": "os.sys",
+        "detail": "os.sys",
+        "documentation": {}
+    },
+    {
+        "label": "largestperfectsquare",
+        "importPath": "largestperfectsquare",
+        "description": "largestperfectsquare",
+        "isExtraImport": true,
+        "detail": "largestperfectsquare",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "largestperfectsquare",
+        "kind": 2,
+        "importPath": "06-largestperfectquare-Python.largestperfectsquare",
+        "description": "06-largestperfectquare-Python.largestperfectsquare",
+        "peekOfCode": "def largestperfectsquare(n):\n    s=math.sqrt(n)\n    if s==float:\n        return int(s*s)",
+        "detail": "06-largestperfectquare-Python.largestperfectsquare",
+        "documentation": {}
+    },
+    {
+        "label": "test_largestperfectsquare",
+        "kind": 2,
+        "importPath": "06-largestperfectquare-Python.test_largestperfectsquare",
+        "description": "06-largestperfectquare-Python.test_largestperfectsquare",
+        "peekOfCode": "def test_largestperfectsquare(n, result):\n    assert largestperfectsquare(n) == result",
+        "detail": "06-largestperfectquare-Python.test_largestperfectsquare",
+        "documentation": {}
+    }
+]
