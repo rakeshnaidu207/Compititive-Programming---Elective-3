@@ -1,0 +1,55 @@
+[
+    {
+        "label": "os,sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.sys",
+        "description": "os.sys",
+        "detail": "os.sys",
+        "documentation": {}
+    },
+    {
+        "label": "fun_threelines_area",
+        "importPath": "threelines_area",
+        "description": "threelines_area",
+        "isExtraImport": true,
+        "detail": "threelines_area",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "test_fun_threelines_area",
+        "kind": 2,
+        "importPath": "04-threelines_area-Python.test_threelines_area",
+        "description": "04-threelines_area-Python.test_threelines_area",
+        "peekOfCode": "def test_fun_threelines_area(a,b,c, result):\n    assert fun_threelines_area(a,b,c) == result",
+        "detail": "04-threelines_area-Python.test_threelines_area",
+        "documentation": {}
+    },
+    {
+        "label": "fun_threelines_area",
+        "kind": 2,
+        "importPath": "04-threelines_area-Python.threelines_area",
+        "description": "04-threelines_area-Python.threelines_area",
+        "peekOfCode": "def fun_threelines_area(a, b, c):\n    s=(a+b+c)/2\n    area=math.sqrt(s*(s-a)*(s-b)*(s-c))\n    return int(area)",
+        "detail": "04-threelines_area-Python.threelines_area",
+        "documentation": {}
+    }
+]
