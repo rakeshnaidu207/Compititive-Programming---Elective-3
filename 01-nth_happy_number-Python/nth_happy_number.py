@@ -16,4 +16,4 @@
 
 
 def nth_happy_number(n):
-	return 0
+

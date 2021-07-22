@@ -1,0 +1,46 @@
+[
+    {
+        "label": "os,sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.sys",
+        "description": "os.sys",
+        "detail": "os.sys",
+        "documentation": {}
+    },
+    {
+        "label": "nth_happy_number",
+        "importPath": "nth_happy_number",
+        "description": "nth_happy_number",
+        "isExtraImport": true,
+        "detail": "nth_happy_number",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "nth_happy_number",
+        "kind": 2,
+        "importPath": "01-nth_happy_number-Python.nth_happy_number",
+        "description": "01-nth_happy_number-Python.nth_happy_number",
+        "peekOfCode": "def nth_happy_number(n):",
+        "detail": "01-nth_happy_number-Python.nth_happy_number",
+        "documentation": {}
+    },
+    {
+        "label": "test_nth_happy_number",
+        "kind": 2,
+        "importPath": "01-nth_happy_number-Python.test_nth_happy_number",
+        "description": "01-nth_happy_number-Python.test_nth_happy_number",
+        "peekOfCode": "def test_nth_happy_number(a, result):\n    assert nth_happy_number(a) == result",
+        "detail": "01-nth_happy_number-Python.test_nth_happy_number",
+        "documentation": {}
+    }
+]
