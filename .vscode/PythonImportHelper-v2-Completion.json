@@ -1,14 +1,5 @@
 [
     {
-        "label": "math",
-        "kind": 6,
-        "isExtraImport": true,
-        "importPath": "math",
-        "description": "math",
-        "detail": "math",
-        "documentation": {}
-    },
-    {
         "label": "os,sys",
         "kind": 6,
         "isExtraImport": true,
@@ -39,7 +30,7 @@
         "kind": 2,
         "importPath": "06-largestperfectquare-Python.largestperfectsquare",
         "description": "06-largestperfectquare-Python.largestperfectsquare",
-        "peekOfCode": "def largestperfectsquare(n):\n    s=math.sqrt(n)\n    if s==float:\n        return int(s*s)",
+        "peekOfCode": "def largestperfectsquare(n):\n    while n>0:\n        i=1\n        while i<=n//2:\n            square=i*i\n        if square == n:\n            return square\n        else:\n            i+=1\n            n-=1",
         "detail": "06-largestperfectquare-Python.largestperfectsquare",
         "documentation": {}
     },
