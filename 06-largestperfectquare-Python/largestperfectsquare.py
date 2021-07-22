@@ -14,9 +14,6 @@ def largestperfectsquare(n):
             square=i*i
         if square == n:
             return square
-        else:
-            i+=1
-            n-=1
-            return n
+       
             
    
