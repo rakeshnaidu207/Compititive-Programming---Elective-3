@@ -1,5 +1,14 @@
 [
     {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
         "label": "os,sys",
         "kind": 6,
         "isExtraImport": true,
@@ -26,11 +35,92 @@
         "documentation": {}
     },
     {
-        "label": "nthpowerfulnumber",
+        "label": "isPowerful",
         "kind": 2,
         "importPath": "07-nth_powerfulnumber-Python.nthpowerfulnumber",
         "description": "07-nth_powerfulnumber-Python.nthpowerfulnumber",
-        "peekOfCode": "def nthpowerfulnumber(n):\n\t# Your code goes here\n    for x in range(1,n+1):\n        if x%2!=0 and n%x==0 and n%(x*x)==0:\n           return (x)**2*(x**2)**3",
+        "peekOfCode": "def isPowerful(n):\n\twhile (n % 2 == 0):\n\t\ta = 0\n\t\twhile (n % 2 == 0):\n\t\t\tn = n // 2\n\t\t\ta = a + 1\n\t\tif ( a == 1):\n\t\t\treturn False\n\tfor power in range(3, int(math.sqrt(n))+1, 2):\n\t\ta = 0",
+        "detail": "07-nth_powerfulnumber-Python.nthpowerfulnumber",
+        "documentation": {}
+    },
+    {
+        "label": "nthPowerfulNumber",
+        "kind": 2,
+        "importPath": "07-nth_powerfulnumber-Python.nthpowerfulnumber",
+        "description": "07-nth_powerfulnumber-Python.nthpowerfulnumber",
+        "peekOfCode": "def nthPowerfulNumber(n):\n\tfound = 0\n\tguess = 0\n\twhile (found <= abs(n)):\n\t\tguess += 1\n\t\tif(isPowerful(guess)):\n\t\t\tfound += 1\n\treturn guess\nprint(nthPowerfulNumber(int(input())))",
+        "detail": "07-nth_powerfulnumber-Python.nthpowerfulnumber",
+        "documentation": {}
+    },
+    {
+        "label": "\t\ta",
+        "kind": 5,
+        "importPath": "07-nth_powerfulnumber-Python.nthpowerfulnumber",
+        "description": "07-nth_powerfulnumber-Python.nthpowerfulnumber",
+        "peekOfCode": "\t\ta = 0\n\t\twhile (n % 2 == 0):\n\t\t\tn = n // 2\n\t\t\ta = a + 1\n\t\tif ( a == 1):\n\t\t\treturn False\n\tfor power in range(3, int(math.sqrt(n))+1, 2):\n\t\ta = 0\n\t\twhile (n % power == 0):\n\t\t\tn = n // power",
+        "detail": "07-nth_powerfulnumber-Python.nthpowerfulnumber",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tn",
+        "kind": 5,
+        "importPath": "07-nth_powerfulnumber-Python.nthpowerfulnumber",
+        "description": "07-nth_powerfulnumber-Python.nthpowerfulnumber",
+        "peekOfCode": "\t\t\tn = n // 2\n\t\t\ta = a + 1\n\t\tif ( a == 1):\n\t\t\treturn False\n\tfor power in range(3, int(math.sqrt(n))+1, 2):\n\t\ta = 0\n\t\twhile (n % power == 0):\n\t\t\tn = n // power\n\t\t\ta = a + 1\n\t\tif (a == 1):",
+        "detail": "07-nth_powerfulnumber-Python.nthpowerfulnumber",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\ta",
+        "kind": 5,
+        "importPath": "07-nth_powerfulnumber-Python.nthpowerfulnumber",
+        "description": "07-nth_powerfulnumber-Python.nthpowerfulnumber",
+        "peekOfCode": "\t\t\ta = a + 1\n\t\tif ( a == 1):\n\t\t\treturn False\n\tfor power in range(3, int(math.sqrt(n))+1, 2):\n\t\ta = 0\n\t\twhile (n % power == 0):\n\t\t\tn = n // power\n\t\t\ta = a + 1\n\t\tif (a == 1):\n\t\t\treturn False",
+        "detail": "07-nth_powerfulnumber-Python.nthpowerfulnumber",
+        "documentation": {}
+    },
+    {
+        "label": "\t\ta",
+        "kind": 5,
+        "importPath": "07-nth_powerfulnumber-Python.nthpowerfulnumber",
+        "description": "07-nth_powerfulnumber-Python.nthpowerfulnumber",
+        "peekOfCode": "\t\ta = 0\n\t\twhile (n % power == 0):\n\t\t\tn = n // power\n\t\t\ta = a + 1\n\t\tif (a == 1):\n\t\t\treturn False\n\treturn (n == 1)\ndef nthPowerfulNumber(n):\n\tfound = 0\n\tguess = 0",
+        "detail": "07-nth_powerfulnumber-Python.nthpowerfulnumber",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\tn",
+        "kind": 5,
+        "importPath": "07-nth_powerfulnumber-Python.nthpowerfulnumber",
+        "description": "07-nth_powerfulnumber-Python.nthpowerfulnumber",
+        "peekOfCode": "\t\t\tn = n // power\n\t\t\ta = a + 1\n\t\tif (a == 1):\n\t\t\treturn False\n\treturn (n == 1)\ndef nthPowerfulNumber(n):\n\tfound = 0\n\tguess = 0\n\twhile (found <= abs(n)):\n\t\tguess += 1",
+        "detail": "07-nth_powerfulnumber-Python.nthpowerfulnumber",
+        "documentation": {}
+    },
+    {
+        "label": "\t\t\ta",
+        "kind": 5,
+        "importPath": "07-nth_powerfulnumber-Python.nthpowerfulnumber",
+        "description": "07-nth_powerfulnumber-Python.nthpowerfulnumber",
+        "peekOfCode": "\t\t\ta = a + 1\n\t\tif (a == 1):\n\t\t\treturn False\n\treturn (n == 1)\ndef nthPowerfulNumber(n):\n\tfound = 0\n\tguess = 0\n\twhile (found <= abs(n)):\n\t\tguess += 1\n\t\tif(isPowerful(guess)):",
+        "detail": "07-nth_powerfulnumber-Python.nthpowerfulnumber",
+        "documentation": {}
+    },
+    {
+        "label": "\tfound",
+        "kind": 5,
+        "importPath": "07-nth_powerfulnumber-Python.nthpowerfulnumber",
+        "description": "07-nth_powerfulnumber-Python.nthpowerfulnumber",
+        "peekOfCode": "\tfound = 0\n\tguess = 0\n\twhile (found <= abs(n)):\n\t\tguess += 1\n\t\tif(isPowerful(guess)):\n\t\t\tfound += 1\n\treturn guess\nprint(nthPowerfulNumber(int(input())))",
+        "detail": "07-nth_powerfulnumber-Python.nthpowerfulnumber",
+        "documentation": {}
+    },
+    {
+        "label": "\tguess",
+        "kind": 5,
+        "importPath": "07-nth_powerfulnumber-Python.nthpowerfulnumber",
+        "description": "07-nth_powerfulnumber-Python.nthpowerfulnumber",
+        "peekOfCode": "\tguess = 0\n\twhile (found <= abs(n)):\n\t\tguess += 1\n\t\tif(isPowerful(guess)):\n\t\t\tfound += 1\n\treturn guess\nprint(nthPowerfulNumber(int(input())))",
         "detail": "07-nth_powerfulnumber-Python.nthpowerfulnumber",
         "documentation": {}
     },
