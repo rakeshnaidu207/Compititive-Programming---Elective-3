@@ -1,0 +1,46 @@
+[
+    {
+        "label": "os,sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.sys",
+        "description": "os.sys",
+        "detail": "os.sys",
+        "documentation": {}
+    },
+    {
+        "label": "fun_rectangle_overlap",
+        "importPath": "rectangle_overlap",
+        "description": "rectangle_overlap",
+        "isExtraImport": true,
+        "detail": "rectangle_overlap",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "fun_rectangle_overlap",
+        "kind": 2,
+        "importPath": "05-rectangle_overlap-Python.rectangle_overlap",
+        "description": "05-rectangle_overlap-Python.rectangle_overlap",
+        "peekOfCode": "def fun_rectangle_overlap(left1, top1, width1, height1, left2, top2, width2, height2):\n    w=((left2>left1)and(left2>left1+width1))\n    x=((left1>left2)and(left1>left2+width2))\n    y=((top2>top1)and(top2>top1+height1))\n    z=((top1>top2)and(top1>top2+height2))\n    if(w or x or y or z):\n        return False\n    else:\n        return True",
+        "detail": "05-rectangle_overlap-Python.rectangle_overlap",
+        "documentation": {}
+    },
+    {
+        "label": "test_fun_rectangle_overlap",
+        "kind": 2,
+        "importPath": "05-rectangle_overlap-Python.test_rectangle_overlap",
+        "description": "05-rectangle_overlap-Python.test_rectangle_overlap",
+        "peekOfCode": "def test_fun_rectangle_overlap(a,b,c,d,e,f,g,h, result):\n    assert fun_rectangle_overlap(a,b,c,d,e,f,g,h) == result",
+        "detail": "05-rectangle_overlap-Python.test_rectangle_overlap",
+        "documentation": {}
+    }
+]
