@@ -8,12 +8,16 @@
 # Another hint: This can be written using just one or two lines of Python.
 
 def largestperfectsquare(n):
-    while n>0:
-        i=1
-        while i<=n//2:
-            square=i*i
-        if square == n:
-            return square
+    while n > 0:
+        i = 1
+        while i <= n//2:
+            square = i*i
+            if square == n:
+                return square
+            else:
+                i += 1
+        n -= 1
+    return 1
        
             
    
