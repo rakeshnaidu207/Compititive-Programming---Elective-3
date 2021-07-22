@@ -1,0 +1,55 @@
+[
+    {
+        "label": "os,sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.sys",
+        "description": "os.sys",
+        "detail": "os.sys",
+        "documentation": {}
+    },
+    {
+        "label": "ishappynumber",
+        "importPath": "ishappynumber",
+        "description": "ishappynumber",
+        "isExtraImport": true,
+        "detail": "ishappynumber",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "numSquareSum",
+        "kind": 2,
+        "importPath": "11-ishappynumber-Python.ishappynumber",
+        "description": "11-ishappynumber-Python.ishappynumber",
+        "peekOfCode": "def numSquareSum(n):\n    squareSum = 0;\n    while(n):\n        squareSum += (n % 10) * (n % 10);\n        n = int(n / 10);\n    return squareSum;\n# method return true if\n# n is Happy number\ndef ishappynumber(n):\n    # initialize slow",
+        "detail": "11-ishappynumber-Python.ishappynumber",
+        "documentation": {}
+    },
+    {
+        "label": "ishappynumber",
+        "kind": 2,
+        "importPath": "11-ishappynumber-Python.ishappynumber",
+        "description": "11-ishappynumber-Python.ishappynumber",
+        "peekOfCode": "def ishappynumber(n):\n    # initialize slow\n    # and fast by n\n    slow = n;\n    fast = n;\n    while(True):\n        # move slow number\n        # by one iteration\n        slow = numSquareSum(slow);\n        # move fast number",
+        "detail": "11-ishappynumber-Python.ishappynumber",
+        "documentation": {}
+    },
+    {
+        "label": "test_ishappynumber",
+        "kind": 2,
+        "importPath": "11-ishappynumber-Python.test_ishappynumber",
+        "description": "11-ishappynumber-Python.test_ishappynumber",
+        "peekOfCode": "def test_ishappynumber(m, result):\n    assert ishappynumber(m) == result",
+        "detail": "11-ishappynumber-Python.test_ishappynumber",
+        "documentation": {}
+    }
+]
