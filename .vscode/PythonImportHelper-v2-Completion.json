@@ -30,7 +30,7 @@
         "kind": 2,
         "importPath": "01-nth_happy_number-Python.nth_happy_number",
         "description": "01-nth_happy_number-Python.nth_happy_number",
-        "peekOfCode": "def nth_happy_number(n):",
+        "peekOfCode": "def nth_happy_number(n):\n\treturn 0",
         "detail": "01-nth_happy_number-Python.nth_happy_number",
         "documentation": {}
     },
