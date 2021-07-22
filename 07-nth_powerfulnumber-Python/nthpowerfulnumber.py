@@ -7,4 +7,9 @@
 
 def nthpowerfulnumber(n):
 	# Your code goes here
-	pass
+    for x in range(1,n+1):
+        if x%2!=0 and n%x==0 and n%(x*x)==0:
+           return (x)**2*(x**2)**3
+          
+          
+	
