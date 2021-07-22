@@ -22,7 +22,7 @@ def isPowerful(n):
 			return False
 	return (n == 1)
 
-def nthPowerfulNumber(n):
+def nthpowerfulnumber(n):
 	found = 0
 	guess = 0
 	while (found <= abs(n)):
@@ -30,4 +30,3 @@ def nthPowerfulNumber(n):
 		if(isPowerful(guess)):
 			found += 1
 	return guess
-print(nthPowerfulNumber(int(input())))
