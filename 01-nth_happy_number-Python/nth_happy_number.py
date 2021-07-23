@@ -1,4 +1,6 @@
 # Write the function nth_happy_number(n) which takes a non-negative integer 
+import nth_happy_number
+
 # and returns the nth happy number (where the 0th happy number is 1). 
 # Here are some test assertions for you:
 
@@ -15,5 +17,37 @@
 # assert(nth_happy_number(8) == 31)
 
 
+
+#helper function to find the squares of digits
+def numSquareSum(n): 
+    squareSum = 0; 
+    while(n): 
+        squareSum += (n % 10) * (n % 10); 
+        n = int(n / 10); 
+    return squareSum; 
+  
+#to find out if it is a happy number or not
+def isHappynumber(n): 
+    slow = n; 
+    fast = n; 
+    while(True): 
+        slow = numSquareSum(slow); 
+        fast = numSquareSum(numSquareSum(fast)); 
+        if(slow != fast): 
+            continue; 
+        else: 
+            break; 
+    return (slow == 1); 
+#finding nth happy primes
+
 def nth_happy_number(n):
-	return 0
+    found = 0
+    guess = 0
+    while (found <= n):
+        guess += 1
+        #print(guess)
+        if (isHappynumber(guess)):
+            found += 1
+            #print(guess)
+    return guess
+
