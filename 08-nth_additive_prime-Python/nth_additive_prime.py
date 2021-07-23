@@ -7,4 +7,10 @@
 
 
 def fun_nth_additive_prime(n):
-	return 1
+    for i in range(n):
+        s=n[i]+n[i+1]
+        if s%2!=0:
+            return True
+        else:
+            return False
+        

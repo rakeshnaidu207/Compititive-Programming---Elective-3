@@ -1,0 +1,46 @@
+[
+    {
+        "label": "os,sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.sys",
+        "description": "os.sys",
+        "detail": "os.sys",
+        "documentation": {}
+    },
+    {
+        "label": "fun_nth_additive_prime",
+        "importPath": "nth_additive_prime",
+        "description": "nth_additive_prime",
+        "isExtraImport": true,
+        "detail": "nth_additive_prime",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "fun_nth_additive_prime",
+        "kind": 2,
+        "importPath": "08-nth_additive_prime-Python.nth_additive_prime",
+        "description": "08-nth_additive_prime-Python.nth_additive_prime",
+        "peekOfCode": "def fun_nth_additive_prime(n):\n    for i in range(n):\n        s=n[i]+n[i+1]\n        if s%2!=0:\n            return True\n        else:\n            return False",
+        "detail": "08-nth_additive_prime-Python.nth_additive_prime",
+        "documentation": {}
+    },
+    {
+        "label": "test_fun_nth_additive_prime",
+        "kind": 2,
+        "importPath": "08-nth_additive_prime-Python.test_nth_additive_prime",
+        "description": "08-nth_additive_prime-Python.test_nth_additive_prime",
+        "peekOfCode": "def test_fun_nth_additive_prime(a, result):\n    assert fun_nth_additive_prime(a) == result",
+        "detail": "08-nth_additive_prime-Python.test_nth_additive_prime",
+        "documentation": {}
+    }
+]
