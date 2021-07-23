@@ -1,0 +1,117 @@
+[
+    {
+        "label": "os,sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.sys",
+        "description": "os.sys",
+        "detail": "os.sys",
+        "documentation": {}
+    },
+    {
+        "label": "LinkedList",
+        "importPath": "linkedlist",
+        "description": "linkedlist",
+        "isExtraImport": true,
+        "detail": "linkedlist",
+        "documentation": {}
+    },
+    {
+        "label": "Element",
+        "importPath": "linkedlist",
+        "description": "linkedlist",
+        "isExtraImport": true,
+        "detail": "linkedlist",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "Element",
+        "kind": 6,
+        "importPath": "01-linkedlist-Python.linkedlist",
+        "description": "01-linkedlist-Python.linkedlist",
+        "peekOfCode": "class Element(object):\n    def __init__(self, value):\n        self.value = value\n        self.next = None\nclass LinkedList(object):\n    def __init__(self, head=None):\n        self.head = head\n    def append(self, new_element):\n        current = self.head\n        if self.head:",
+        "detail": "01-linkedlist-Python.linkedlist",
+        "documentation": {}
+    },
+    {
+        "label": "LinkedList",
+        "kind": 6,
+        "importPath": "01-linkedlist-Python.linkedlist",
+        "description": "01-linkedlist-Python.linkedlist",
+        "peekOfCode": "class LinkedList(object):\n    def __init__(self, head=None):\n        self.head = head\n    def append(self, new_element):\n        current = self.head\n        if self.head:\n            while current.next:\n                current = current.next\n            current.next = new_element\n        else:",
+        "detail": "01-linkedlist-Python.linkedlist",
+        "documentation": {}
+    },
+    {
+        "label": "test_get_position",
+        "kind": 2,
+        "importPath": "01-linkedlist-Python.test_solution",
+        "description": "01-linkedlist-Python.test_solution",
+        "peekOfCode": "def test_get_position(x,result):    \n    assert ll.get_position(x).value == result\n@pytest.mark.parametrize(\"position,result\",[(3,4)])\ndef test_insert(position,result):\n    e4 = Element(4)\n    ll.insert(e4,3)\n    assert ll.get_position(position).value == result\n@pytest.mark.parametrize(\"val,result\",[(1,2),(2,4),(3,3)])\ndef test_delete(val,result):\n    ll.delete(1)",
+        "detail": "01-linkedlist-Python.test_solution",
+        "documentation": {}
+    },
+    {
+        "label": "test_insert",
+        "kind": 2,
+        "importPath": "01-linkedlist-Python.test_solution",
+        "description": "01-linkedlist-Python.test_solution",
+        "peekOfCode": "def test_insert(position,result):\n    e4 = Element(4)\n    ll.insert(e4,3)\n    assert ll.get_position(position).value == result\n@pytest.mark.parametrize(\"val,result\",[(1,2),(2,4),(3,3)])\ndef test_delete(val,result):\n    ll.delete(1)\n    assert ll.get_position(val).value == result",
+        "detail": "01-linkedlist-Python.test_solution",
+        "documentation": {}
+    },
+    {
+        "label": "test_delete",
+        "kind": 2,
+        "importPath": "01-linkedlist-Python.test_solution",
+        "description": "01-linkedlist-Python.test_solution",
+        "peekOfCode": "def test_delete(val,result):\n    ll.delete(1)\n    assert ll.get_position(val).value == result",
+        "detail": "01-linkedlist-Python.test_solution",
+        "documentation": {}
+    },
+    {
+        "label": "e1",
+        "kind": 5,
+        "importPath": "01-linkedlist-Python.test_solution",
+        "description": "01-linkedlist-Python.test_solution",
+        "peekOfCode": "e1 = Element(1)\ne2 = Element(2)\ne3 = Element(3)\nll = LinkedList(e1)\nll.append(e2)\nll.append(e3)\n@pytest.mark.parametrize(\"x,result\",[(3,3),(2,2)])\ndef test_get_position(x,result):    \n    assert ll.get_position(x).value == result\n@pytest.mark.parametrize(\"position,result\",[(3,4)])",
+        "detail": "01-linkedlist-Python.test_solution",
+        "documentation": {}
+    },
+    {
+        "label": "e2",
+        "kind": 5,
+        "importPath": "01-linkedlist-Python.test_solution",
+        "description": "01-linkedlist-Python.test_solution",
+        "peekOfCode": "e2 = Element(2)\ne3 = Element(3)\nll = LinkedList(e1)\nll.append(e2)\nll.append(e3)\n@pytest.mark.parametrize(\"x,result\",[(3,3),(2,2)])\ndef test_get_position(x,result):    \n    assert ll.get_position(x).value == result\n@pytest.mark.parametrize(\"position,result\",[(3,4)])\ndef test_insert(position,result):",
+        "detail": "01-linkedlist-Python.test_solution",
+        "documentation": {}
+    },
+    {
+        "label": "e3",
+        "kind": 5,
+        "importPath": "01-linkedlist-Python.test_solution",
+        "description": "01-linkedlist-Python.test_solution",
+        "peekOfCode": "e3 = Element(3)\nll = LinkedList(e1)\nll.append(e2)\nll.append(e3)\n@pytest.mark.parametrize(\"x,result\",[(3,3),(2,2)])\ndef test_get_position(x,result):    \n    assert ll.get_position(x).value == result\n@pytest.mark.parametrize(\"position,result\",[(3,4)])\ndef test_insert(position,result):\n    e4 = Element(4)",
+        "detail": "01-linkedlist-Python.test_solution",
+        "documentation": {}
+    },
+    {
+        "label": "ll",
+        "kind": 5,
+        "importPath": "01-linkedlist-Python.test_solution",
+        "description": "01-linkedlist-Python.test_solution",
+        "peekOfCode": "ll = LinkedList(e1)\nll.append(e2)\nll.append(e3)\n@pytest.mark.parametrize(\"x,result\",[(3,3),(2,2)])\ndef test_get_position(x,result):    \n    assert ll.get_position(x).value == result\n@pytest.mark.parametrize(\"position,result\",[(3,4)])\ndef test_insert(position,result):\n    e4 = Element(4)\n    ll.insert(e4,3)",
+        "detail": "01-linkedlist-Python.test_solution",
+        "documentation": {}
+    }
+]
