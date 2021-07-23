@@ -62,6 +62,51 @@
         "documentation": {}
     },
     {
+        "label": "numSquareSum",
+        "kind": 2,
+        "importPath": "01-nth_happy_number-Python.nth_happy_number",
+        "description": "01-nth_happy_number-Python.nth_happy_number",
+        "peekOfCode": "def numSquareSum(n):\n    squareSum = 0;\n    while(n):\n        squareSum += (n % 10) * (n % 10);\n        n = int(n / 10);\n    return squareSum;\n# method return true if\n# n is Happy number\ndef ishappynumber(n):\n    # initialize slow",
+        "detail": "01-nth_happy_number-Python.nth_happy_number",
+        "documentation": {}
+    },
+    {
+        "label": "ishappynumber",
+        "kind": 2,
+        "importPath": "01-nth_happy_number-Python.nth_happy_number",
+        "description": "01-nth_happy_number-Python.nth_happy_number",
+        "peekOfCode": "def ishappynumber(n):\n    # initialize slow\n    # and fast by n\n    slow = n;\n    fast = n;\n    while(True):\n        # move slow number\n        # by one iteration\n        slow = numSquareSum(slow);\n        # move fast number",
+        "detail": "01-nth_happy_number-Python.nth_happy_number",
+        "documentation": {}
+    },
+    {
+        "label": "nthhappynumber",
+        "kind": 2,
+        "importPath": "01-nth_happy_number-Python.nth_happy_number",
+        "description": "01-nth_happy_number-Python.nth_happy_number",
+        "peekOfCode": "def nthhappynumber(n):\n\tfound = 0\n\tguess = 0\n\twhile (found <= abs(n)):\n\t\tguess += 1\n\t\tif(nth_happy_number(guess)):\n\t\t\tfound += 1\n\treturn guess",
+        "detail": "01-nth_happy_number-Python.nth_happy_number",
+        "documentation": {}
+    },
+    {
+        "label": "\tfound",
+        "kind": 5,
+        "importPath": "01-nth_happy_number-Python.nth_happy_number",
+        "description": "01-nth_happy_number-Python.nth_happy_number",
+        "peekOfCode": "\tfound = 0\n\tguess = 0\n\twhile (found <= abs(n)):\n\t\tguess += 1\n\t\tif(nth_happy_number(guess)):\n\t\t\tfound += 1\n\treturn guess",
+        "detail": "01-nth_happy_number-Python.nth_happy_number",
+        "documentation": {}
+    },
+    {
+        "label": "\tguess",
+        "kind": 5,
+        "importPath": "01-nth_happy_number-Python.nth_happy_number",
+        "description": "01-nth_happy_number-Python.nth_happy_number",
+        "peekOfCode": "\tguess = 0\n\twhile (found <= abs(n)):\n\t\tguess += 1\n\t\tif(nth_happy_number(guess)):\n\t\t\tfound += 1\n\treturn guess",
+        "detail": "01-nth_happy_number-Python.nth_happy_number",
+        "documentation": {}
+    },
+    {
         "label": "test_nth_happy_number",
         "kind": 2,
         "importPath": "01-nth_happy_number-Python.test_nth_happy_number",
