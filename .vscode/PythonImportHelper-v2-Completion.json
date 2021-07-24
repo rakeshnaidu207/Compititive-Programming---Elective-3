@@ -1,0 +1,55 @@
+[
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "os,sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.sys",
+        "description": "os.sys",
+        "detail": "os.sys",
+        "documentation": {}
+    },
+    {
+        "label": "fun_nth_kaprekarnumber",
+        "importPath": "nth_kaprekarnumber",
+        "description": "nth_kaprekarnumber",
+        "isExtraImport": true,
+        "detail": "nth_kaprekarnumber",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "fun_nth_kaprekarnumber",
+        "kind": 2,
+        "importPath": "01-nth_kaprekarnumber-Python.nth_kaprekarnumber",
+        "description": "01-nth_kaprekarnumber-Python.nth_kaprekarnumber",
+        "peekOfCode": "def fun_nth_kaprekarnumber(n):\n    string_num = str(n**2)\n    left_string = string_num[:len(string_num)//2]\n    right_string = string_num[len(string_num)//2:]\n    left_num = int(left_string) if left_string != '' else 0\n    right_num = int(right_string) if right_string != '' else 0\n    if n == left_num + right_num:\n        return True",
+        "detail": "01-nth_kaprekarnumber-Python.nth_kaprekarnumber",
+        "documentation": {}
+    },
+    {
+        "label": "test_fun_nth_kaprekarnumber",
+        "kind": 2,
+        "importPath": "01-nth_kaprekarnumber-Python.test_nth_kaprekarnumber",
+        "description": "01-nth_kaprekarnumber-Python.test_nth_kaprekarnumber",
+        "peekOfCode": "def test_fun_nth_kaprekarnumber(a, result):\n    assert fun_nth_kaprekarnumber(a) == result",
+        "detail": "01-nth_kaprekarnumber-Python.test_nth_kaprekarnumber",
+        "documentation": {}
+    }
+]

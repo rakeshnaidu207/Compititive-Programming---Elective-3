@@ -10,4 +10,10 @@
 import math
 
 def fun_nth_kaprekarnumber(n):
-    return 1;
+    string_num = str(n**2)
+    left_string = string_num[:len(string_num)//2]
+    right_string = string_num[len(string_num)//2:]
+    left_num = int(left_string) if left_string != '' else 0
+    right_num = int(right_string) if right_string != '' else 0
+    if n == left_num + right_num:
+        return True
