@@ -51,5 +51,41 @@
         "peekOfCode": "def test_fun_nth_kaprekarnumber(a, result):\n    assert fun_nth_kaprekarnumber(a) == result",
         "detail": "01-nth_kaprekarnumber-Python.test_nth_kaprekarnumber",
         "documentation": {}
+    },
+    {
+        "label": "isPrime",
+        "kind": 2,
+        "importPath": "isadditiveprime.isadditiveprime",
+        "description": "isadditiveprime.isadditiveprime",
+        "peekOfCode": "def isPrime(n):\n    # Corner Cases\n    if (n <= 1):\n        return False\n    if (n <= 3):\n        return True\n    # This is checked to skip\n    # middle five numbers\n    if (n % 2 == 0 or n % 3 == 0):\n        return False",
+        "detail": "isadditiveprime.isadditiveprime",
+        "documentation": {}
+    },
+    {
+        "label": "getSum",
+        "kind": 2,
+        "importPath": "isadditiveprime.isadditiveprime",
+        "description": "isadditiveprime.isadditiveprime",
+        "peekOfCode": "def getSum(n):\n    sum = 0\n    while (n != 0):\n        sum = sum + n % 10\n        n = n / 10\n    # Return the sum of digits\n    return sum\n# Function to check whether\n# the given number is\n# Additive Prime number or not",
+        "detail": "isadditiveprime.isadditiveprime",
+        "documentation": {}
+    },
+    {
+        "label": "isAdditivePrime",
+        "kind": 2,
+        "importPath": "isadditiveprime.isadditiveprime",
+        "description": "isadditiveprime.isadditiveprime",
+        "peekOfCode": "def isAdditivePrime(n):\n    # If number is not prime\n    if (not isPrime(n)):\n        return False\n    # Check if sum of digits\n    # is prime or not\n    return isPrime(getSum(n))\n# Driver Code\n# Given Number N\nN = 23",
+        "detail": "isadditiveprime.isadditiveprime",
+        "documentation": {}
+    },
+    {
+        "label": "N",
+        "kind": 5,
+        "importPath": "isadditiveprime.isadditiveprime",
+        "description": "isadditiveprime.isadditiveprime",
+        "peekOfCode": "N = 23\n# Function Call\nif (isAdditivePrime(N)):\n    print (\"Yes\")\nelse:\n    print (\"No\")",
+        "detail": "isadditiveprime.isadditiveprime",
+        "documentation": {}
     }
 ]
