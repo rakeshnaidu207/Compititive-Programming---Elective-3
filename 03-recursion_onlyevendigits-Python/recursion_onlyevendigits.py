@@ -8,5 +8,28 @@
 # Also the function returns the empty list if the original list is empty. 
 # Remember to not use strings. You may not use loops/iteration in this problem.
 
-def fun_recursion_onlyevendigits(l): 
-		return []
+gv=0
+s=[]
+def remOdds(v):
+	global gv
+	if(v>0):
+		ld=v%10
+		remOdds(v//10)
+		if(ld%2==0):
+			gv=gv*10+ld
+
+
+def fun_recursion_onlyevendigits(l):
+	if l==[]:
+		return l
+	global gv
+	if(len(l)!=0):
+		gv=0
+		remOdds(l[0])
+		s.append(gv)
+		fun_recursion_onlyevendigits(l[1:])
+	return s
+	# your code goes here
+
+#print(fun_recursion_onlyevendigits(readList()))
+

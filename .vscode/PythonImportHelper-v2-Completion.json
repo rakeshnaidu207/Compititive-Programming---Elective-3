@@ -1,0 +1,55 @@
+[
+    {
+        "label": "os,sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.sys",
+        "description": "os.sys",
+        "detail": "os.sys",
+        "documentation": {}
+    },
+    {
+        "label": "fun_recursion_onlyevendigits",
+        "importPath": "recursion_onlyevendigits",
+        "description": "recursion_onlyevendigits",
+        "isExtraImport": true,
+        "detail": "recursion_onlyevendigits",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "remOdds",
+        "kind": 2,
+        "importPath": "03-recursion_onlyevendigits-Python.recursion_onlyevendigits",
+        "description": "03-recursion_onlyevendigits-Python.recursion_onlyevendigits",
+        "peekOfCode": "def remOdds(v):\n\tglobal gv\n\tif(v>0):\n\t\tld=v%10\n\t\tremOdds(v//10)\n\t\tif(ld%2==0):\n\t\t\tgv=gv*10+ld\ndef fun_recursion_onlyevendigits(l):\n\tif l==[]:\n\t\treturn l",
+        "detail": "03-recursion_onlyevendigits-Python.recursion_onlyevendigits",
+        "documentation": {}
+    },
+    {
+        "label": "fun_recursion_onlyevendigits",
+        "kind": 2,
+        "importPath": "03-recursion_onlyevendigits-Python.recursion_onlyevendigits",
+        "description": "03-recursion_onlyevendigits-Python.recursion_onlyevendigits",
+        "peekOfCode": "def fun_recursion_onlyevendigits(l):\n\tif l==[]:\n\t\treturn l\n\tglobal gv\n\tif(len(l)!=0):\n\t\tgv=0\n\t\tremOdds(l[0])\n\t\ts.append(gv)\n\t\tfun_recursion_onlyevendigits(l[1:])\n\treturn s",
+        "detail": "03-recursion_onlyevendigits-Python.recursion_onlyevendigits",
+        "documentation": {}
+    },
+    {
+        "label": "test_fun_recursion_onlyevendigits",
+        "kind": 2,
+        "importPath": "03-recursion_onlyevendigits-Python.test_recursion_onlyevendigits",
+        "description": "03-recursion_onlyevendigits-Python.test_recursion_onlyevendigits",
+        "peekOfCode": "def test_fun_recursion_onlyevendigits(s1, result):\n    assert fun_recursion_onlyevendigits(s1) == result",
+        "detail": "03-recursion_onlyevendigits-Python.test_recursion_onlyevendigits",
+        "documentation": {}
+    }
+]
