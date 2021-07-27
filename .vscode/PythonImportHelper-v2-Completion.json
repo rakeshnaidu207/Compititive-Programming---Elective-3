@@ -30,7 +30,7 @@
         "kind": 2,
         "importPath": "10-issorted-Python.issorted",
         "description": "10-issorted-Python.issorted",
-        "peekOfCode": "def issorted(a):\n\t# your code goes here\n\tpass",
+        "peekOfCode": "def issorted(a):\n    if(len(a)==0 or a==sorted(a) or a[::-1]==sorted(a)):\n      return (True) \n    else: \n       return (False)",
         "detail": "10-issorted-Python.issorted",
         "documentation": {}
     },
