@@ -1,0 +1,46 @@
+[
+    {
+        "label": "os,sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.sys",
+        "description": "os.sys",
+        "detail": "os.sys",
+        "documentation": {}
+    },
+    {
+        "label": "issorted",
+        "importPath": "issorted",
+        "description": "issorted",
+        "isExtraImport": true,
+        "detail": "issorted",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "issorted",
+        "kind": 2,
+        "importPath": "10-issorted-Python.issorted",
+        "description": "10-issorted-Python.issorted",
+        "peekOfCode": "def issorted(a):\n\t# your code goes here\n\tpass",
+        "detail": "10-issorted-Python.issorted",
+        "documentation": {}
+    },
+    {
+        "label": "test_issorted",
+        "kind": 2,
+        "importPath": "10-issorted-Python.test_issorted",
+        "description": "10-issorted-Python.test_issorted",
+        "peekOfCode": "def test_issorted(input_value, result):    \n    assert issorted(input_value) == result",
+        "detail": "10-issorted-Python.test_issorted",
+        "documentation": {}
+    }
+]
