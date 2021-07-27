@@ -1,0 +1,46 @@
+[
+    {
+        "label": "os,sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.sys",
+        "description": "os.sys",
+        "detail": "os.sys",
+        "documentation": {}
+    },
+    {
+        "label": "fun_rotatestrings",
+        "importPath": "rotatestrings",
+        "description": "rotatestrings",
+        "isExtraImport": true,
+        "detail": "rotatestrings",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "fun_rotatestrings",
+        "kind": 2,
+        "importPath": "01-rotatestrings-Python.rotatestrings",
+        "description": "01-rotatestrings-Python.rotatestrings",
+        "peekOfCode": "def fun_rotatestrings(s, n):\n    n=n%(len(s))\n    s=s[n:]+s[0:n]\n    return s",
+        "detail": "01-rotatestrings-Python.rotatestrings",
+        "documentation": {}
+    },
+    {
+        "label": "test_fun_rotatestrings",
+        "kind": 2,
+        "importPath": "01-rotatestrings-Python.test_rotatestrings",
+        "description": "01-rotatestrings-Python.test_rotatestrings",
+        "peekOfCode": "def test_fun_rotatestrings(s1, s2, result):\n    assert fun_rotatestrings(s1, s2) == result",
+        "detail": "01-rotatestrings-Python.test_rotatestrings",
+        "documentation": {}
+    }
+]
