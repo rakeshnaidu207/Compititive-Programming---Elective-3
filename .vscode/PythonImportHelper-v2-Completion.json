@@ -1,0 +1,46 @@
+[
+    {
+        "label": "os,sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.sys",
+        "description": "os.sys",
+        "detail": "os.sys",
+        "documentation": {}
+    },
+    {
+        "label": "fun_recursions_alternatingsum",
+        "importPath": "recursions_alternatingsum",
+        "description": "recursions_alternatingsum",
+        "isExtraImport": true,
+        "detail": "recursions_alternatingsum",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "fun_recursions_alternatingsum",
+        "kind": 2,
+        "importPath": "02-recusions_alternatingsum-Python.recursions_alternatingsum",
+        "description": "02-recusions_alternatingsum-Python.recursions_alternatingsum",
+        "peekOfCode": "def fun_recursions_alternatingsum(l):\n    if l==[]:\n        return 0\n    else:\n        return l[0] - fun_recursions_alternatingsum(l[1:])",
+        "detail": "02-recusions_alternatingsum-Python.recursions_alternatingsum",
+        "documentation": {}
+    },
+    {
+        "label": "test_fun_recursions_alternatingsum",
+        "kind": 2,
+        "importPath": "02-recusions_alternatingsum-Python.test_recursions_alternatingsum",
+        "description": "02-recusions_alternatingsum-Python.test_recursions_alternatingsum",
+        "peekOfCode": "def test_fun_recursions_alternatingsum(s1, result):\n    assert fun_recursions_alternatingsum(s1) == result",
+        "detail": "02-recusions_alternatingsum-Python.test_recursions_alternatingsum",
+        "documentation": {}
+    }
+]
