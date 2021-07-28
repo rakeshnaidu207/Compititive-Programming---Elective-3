@@ -30,7 +30,7 @@
         "kind": 2,
         "importPath": "12-matrixadd-Python.matrixadd",
         "description": "12-matrixadd-Python.matrixadd",
-        "peekOfCode": "def matrixadd(L, M):\n    if (len(L[0])!=len(M[0])):\n        return None\n    for i in range(len(L)):\n        for j in range(1,len(L)):\n            if(len(L[i])!=len(L[j])):\n                return None\n    for i in range(len(M)):\n        for j in range(1,len(M)):\n            if(len(M[i])!=len(M[j])):",
+        "peekOfCode": "def matrixadd(L, M):\n    if (len(L)!=len(M)):\n        return None\n    for i in range(len(M)):\n        if len(M[i])!=len(L[i]):\n            return None\n    arr=[[0 for i in range(len(M[j]))] for j in range(len(M))]\n    print(arr)\n    for i in range(len(L)):\n        for j in range(len(L[i])):",
         "detail": "12-matrixadd-Python.matrixadd",
         "documentation": {}
     },
