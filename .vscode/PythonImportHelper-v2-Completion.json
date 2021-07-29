@@ -1,0 +1,46 @@
+[
+    {
+        "label": "os,sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.sys",
+        "description": "os.sys",
+        "detail": "os.sys",
+        "documentation": {}
+    },
+    {
+        "label": "fun_getaverage",
+        "importPath": "getaverage",
+        "description": "getaverage",
+        "isExtraImport": true,
+        "detail": "getaverage",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "fun_getaverage",
+        "kind": 2,
+        "importPath": "04-getaverage-Python.getaverage",
+        "description": "04-getaverage-Python.getaverage",
+        "peekOfCode": "def fun_getaverage(s): \n\td=s.split(\",\")\n\tsum=0\n\tcount=0\n\tavg=0.0\n\tfor i in d:\n\t\tif(i.isdigit()):\n\t\t\tsum=sum+int(i)\n\t\t\tcount=count+1\n\tif(count==0):",
+        "detail": "04-getaverage-Python.getaverage",
+        "documentation": {}
+    },
+    {
+        "label": "test_fun_getaverage",
+        "kind": 2,
+        "importPath": "04-getaverage-Python.test_getaverage",
+        "description": "04-getaverage-Python.test_getaverage",
+        "peekOfCode": "def test_fun_getaverage(s1, result):\n    assert fun_getaverage(s1) == result",
+        "detail": "04-getaverage-Python.test_getaverage",
+        "documentation": {}
+    }
+]
