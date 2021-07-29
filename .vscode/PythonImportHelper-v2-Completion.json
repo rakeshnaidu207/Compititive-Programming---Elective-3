@@ -1,0 +1,46 @@
+[
+    {
+        "label": "os,sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.sys",
+        "description": "os.sys",
+        "detail": "os.sys",
+        "documentation": {}
+    },
+    {
+        "label": "inverselookandsay",
+        "importPath": "inverselookandsay",
+        "description": "inverselookandsay",
+        "isExtraImport": true,
+        "detail": "inverselookandsay",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "inverselookandsay",
+        "kind": 2,
+        "importPath": "07-inverselookandsay-Python.inverselookandsay",
+        "description": "07-inverselookandsay-Python.inverselookandsay",
+        "peekOfCode": "def inverselookandsay(a):\n    if(len(a[0])==0):\n        return []\n    x=[i[0] for i in a]\n    y=[i[1] for i in a]\n    k=0\n    list=[]\n    for i in x:\n        for j in range(i):#01\n            list.append(y[k])",
+        "detail": "07-inverselookandsay-Python.inverselookandsay",
+        "documentation": {}
+    },
+    {
+        "label": "test_inverselookandsay",
+        "kind": 2,
+        "importPath": "07-inverselookandsay-Python.test_inverselookandsay",
+        "description": "07-inverselookandsay-Python.test_inverselookandsay",
+        "peekOfCode": "def test_inverselookandsay(a, result):\n    assert inverselookandsay(a) == result",
+        "detail": "07-inverselookandsay-Python.test_inverselookandsay",
+        "documentation": {}
+    }
+]
