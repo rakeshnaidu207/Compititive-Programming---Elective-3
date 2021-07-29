@@ -1,0 +1,46 @@
+[
+    {
+        "label": "os,sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.sys",
+        "description": "os.sys",
+        "detail": "os.sys",
+        "documentation": {}
+    },
+    {
+        "label": "canqueenattack",
+        "importPath": "canqueenattack",
+        "description": "canqueenattack",
+        "isExtraImport": true,
+        "detail": "canqueenattack",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "canqueenattack",
+        "kind": 2,
+        "importPath": "05-canqueenattack-Python.canqueenattack",
+        "description": "05-canqueenattack-Python.canqueenattack",
+        "peekOfCode": "def canqueenattack(qR, qC, oR, oC):\n    if(qR == oR or qC == oC or (qR-oR) == (qC-oC)):\n     return True\n    else:\n        return False",
+        "detail": "05-canqueenattack-Python.canqueenattack",
+        "documentation": {}
+    },
+    {
+        "label": "test_canqueenattack",
+        "kind": 2,
+        "importPath": "05-canqueenattack-Python.test_canqueenattack",
+        "description": "05-canqueenattack-Python.test_canqueenattack",
+        "peekOfCode": "def test_canqueenattack(a, b, c, d, result):\n\tassert canqueenattack(a, b, c, d) == result",
+        "detail": "05-canqueenattack-Python.test_canqueenattack",
+        "documentation": {}
+    }
+]
