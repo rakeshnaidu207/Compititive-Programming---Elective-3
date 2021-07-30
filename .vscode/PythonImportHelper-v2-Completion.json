@@ -1,0 +1,55 @@
+[
+    {
+        "label": "os,sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.sys",
+        "description": "os.sys",
+        "detail": "os.sys",
+        "documentation": {}
+    },
+    {
+        "label": "recursion_secondlargest",
+        "importPath": "recursion_secondlargest",
+        "description": "recursion_secondlargest",
+        "isExtraImport": true,
+        "detail": "recursion_secondlargest",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "readList",
+        "kind": 2,
+        "importPath": "06-recursion_secondlargest-Python.recursion_secondlargest",
+        "description": "06-recursion_secondlargest-Python.recursion_secondlargest",
+        "peekOfCode": "def readList():\n    a = []\n    l = int(input())\n    for i in range(l):\n        a.append(int(input()))\n        return a\ndef recursion_secondlargest(L):\n\t# your code goes here\n    if len(L)==0 or len(L)==1:\n        return None",
+        "detail": "06-recursion_secondlargest-Python.recursion_secondlargest",
+        "documentation": {}
+    },
+    {
+        "label": "recursion_secondlargest",
+        "kind": 2,
+        "importPath": "06-recursion_secondlargest-Python.recursion_secondlargest",
+        "description": "06-recursion_secondlargest-Python.recursion_secondlargest",
+        "peekOfCode": "def recursion_secondlargest(L):\n\t# your code goes here\n    if len(L)==0 or len(L)==1:\n        return None\n    else:\n        z=max(L)\n        L.remove(z)\n        return max(L)",
+        "detail": "06-recursion_secondlargest-Python.recursion_secondlargest",
+        "documentation": {}
+    },
+    {
+        "label": "test_recursion_secondlargest",
+        "kind": 2,
+        "importPath": "06-recursion_secondlargest-Python.test_recursion_secondlargest",
+        "description": "06-recursion_secondlargest-Python.test_recursion_secondlargest",
+        "peekOfCode": "def test_recursion_secondlargest(value, result):\n\tassert recursion_secondlargest(value) == result",
+        "detail": "06-recursion_secondlargest-Python.test_recursion_secondlargest",
+        "documentation": {}
+    }
+]
