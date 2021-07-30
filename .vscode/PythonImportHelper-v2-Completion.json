@@ -1,0 +1,11 @@
+[
+    {
+        "label": "areAnagrams",
+        "kind": 2,
+        "importPath": "areAnagrams",
+        "description": "areAnagrams",
+        "peekOfCode": "def areAnagrams(s1, s2):\n    # Your code goes here...\n    pass\n# write your test cases here...",
+        "detail": "areAnagrams",
+        "documentation": {}
+    }
+]
