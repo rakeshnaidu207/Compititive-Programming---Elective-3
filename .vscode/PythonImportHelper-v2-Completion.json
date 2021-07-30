@@ -30,7 +30,34 @@
         "kind": 2,
         "importPath": "05-recursion_binarysearchvales-Python.recursion_binarysearchvalues",
         "description": "05-recursion_binarysearchvales-Python.recursion_binarysearchvalues",
-        "peekOfCode": "def recursion_binarysearchvalues(L, v):\n\t# Your codes goes here\n\tpass",
+        "peekOfCode": "def recursion_binarysearchvalues(L, v):\n    return binarysearch(L,v,0,len(L)-1)\ndef binarysearch(L,v,low,high,res=[]):\n    mid=(low+high)//2 #0,1\n    if (L[mid] == v and low<high):#acfgmq #a\n        res.append((mid,L[mid]))\n        return res\n    elif(low == high):#1,1\n        res.append((mid,L[mid]))\n        return res",
+        "detail": "05-recursion_binarysearchvales-Python.recursion_binarysearchvalues",
+        "documentation": {}
+    },
+    {
+        "label": "binarysearch",
+        "kind": 2,
+        "importPath": "05-recursion_binarysearchvales-Python.recursion_binarysearchvalues",
+        "description": "05-recursion_binarysearchvales-Python.recursion_binarysearchvalues",
+        "peekOfCode": "def binarysearch(L,v,low,high,res=[]):\n    mid=(low+high)//2 #0,1\n    if (L[mid] == v and low<high):#acfgmq #a\n        res.append((mid,L[mid]))\n        return res\n    elif(low == high):#1,1\n        res.append((mid,L[mid]))\n        return res\n    elif(v<L[mid]):#a<f\n        high=mid-1 #1 low 0",
+        "detail": "05-recursion_binarysearchvales-Python.recursion_binarysearchvalues",
+        "documentation": {}
+    },
+    {
+        "label": "#L",
+        "kind": 5,
+        "importPath": "05-recursion_binarysearchvales-Python.recursion_binarysearchvalues",
+        "description": "05-recursion_binarysearchvales-Python.recursion_binarysearchvalues",
+        "peekOfCode": "#L = ['a', 'c', 'f', 'g', 'm', 'q']\n#v = 'z'\n#print(recursion_binarysearchvalues(L,v))",
+        "detail": "05-recursion_binarysearchvales-Python.recursion_binarysearchvalues",
+        "documentation": {}
+    },
+    {
+        "label": "#v",
+        "kind": 5,
+        "importPath": "05-recursion_binarysearchvales-Python.recursion_binarysearchvalues",
+        "description": "05-recursion_binarysearchvales-Python.recursion_binarysearchvalues",
+        "peekOfCode": "#v = 'z'\n#print(recursion_binarysearchvalues(L,v))",
         "detail": "05-recursion_binarysearchvales-Python.recursion_binarysearchvalues",
         "documentation": {}
     },
