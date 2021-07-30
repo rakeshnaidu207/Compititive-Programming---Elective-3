@@ -1,0 +1,55 @@
+[
+    {
+        "label": "os,sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.sys",
+        "description": "os.sys",
+        "detail": "os.sys",
+        "documentation": {}
+    },
+    {
+        "label": "recursion_binarysearchvalues",
+        "importPath": "recursion_binarysearchvalues",
+        "description": "recursion_binarysearchvalues",
+        "isExtraImport": true,
+        "detail": "recursion_binarysearchvalues",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "recursion_binarysearchvalues",
+        "kind": 2,
+        "importPath": "05-recursion_binarysearchvales-Python.recursion_binarysearchvalues",
+        "description": "05-recursion_binarysearchvales-Python.recursion_binarysearchvalues",
+        "peekOfCode": "def recursion_binarysearchvalues(L, v):\n\t# Your codes goes here\n\tpass",
+        "detail": "05-recursion_binarysearchvales-Python.recursion_binarysearchvalues",
+        "documentation": {}
+    },
+    {
+        "label": "test_recursion_binarysearchvalues",
+        "kind": 2,
+        "importPath": "05-recursion_binarysearchvales-Python.test_recursion_binarysearchvalues",
+        "description": "05-recursion_binarysearchvales-Python.test_recursion_binarysearchvalues",
+        "peekOfCode": "def test_recursion_binarysearchvalues(value, result):\n\tassert recursion_binarysearchvalues(L, value) == result",
+        "detail": "05-recursion_binarysearchvales-Python.test_recursion_binarysearchvalues",
+        "documentation": {}
+    },
+    {
+        "label": "L",
+        "kind": 5,
+        "importPath": "05-recursion_binarysearchvales-Python.test_recursion_binarysearchvalues",
+        "description": "05-recursion_binarysearchvales-Python.test_recursion_binarysearchvalues",
+        "peekOfCode": "L = ['a', 'c', 'f', 'g', 'm', 'q']\n@pytest.mark.parametrize(\"value, result\",[\n\t('a', [(2,'f'), (0,'a')]),\n\t('c', [(2,'f'), (0,'a'), (1,'c')]),\n\t('f', [(2,'f')]),\n\t('g', [(2,'f'), (4, 'm'), (3, 'g')]),\n\t('m', [(2,'f'), (4, 'm')]),\n\t('q', [(2,'f'), (4, 'm'), (5, 'q')]),\n\t('z', [(2,'f'), (4, 'm'), (5, 'q')]),\n\t('b', [(2,'f'), (0,'a'), (1,'c')])",
+        "detail": "05-recursion_binarysearchvales-Python.test_recursion_binarysearchvalues",
+        "documentation": {}
+    }
+]
