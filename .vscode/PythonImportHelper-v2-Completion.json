@@ -30,7 +30,25 @@
         "kind": 2,
         "importPath": "03-recursion_onlyevendigits-Python.recursion_onlyevendigits",
         "description": "03-recursion_onlyevendigits-Python.recursion_onlyevendigits",
-        "peekOfCode": "def remOdds(v):\n\tglobal gv\n\tif(v>0):\n\t\tld=v%10\n\t\tremOdds(v//10)\n\t\tif(ld%2==0):\n\t\t\tgv=gv*10+ld\ndef fun_recursion_onlyevendigits(l):\n\tif l==[]:\n\t\treturn l",
+        "peekOfCode": "def remOdds(v):\n\tglobal gv\n\tif(v>0):\n\t\tld=v%10\n\t\tremOdds(v//10)\n\t\tif(ld%2==0):\n\t\t\tgv=gv*10+ld\ndef getEvenDigits(n,i=0,x=0):\n    if(n == 0):\n        return x",
+        "detail": "03-recursion_onlyevendigits-Python.recursion_onlyevendigits",
+        "documentation": {}
+    },
+    {
+        "label": "getEvenDigits",
+        "kind": 2,
+        "importPath": "03-recursion_onlyevendigits-Python.recursion_onlyevendigits",
+        "description": "03-recursion_onlyevendigits-Python.recursion_onlyevendigits",
+        "peekOfCode": "def getEvenDigits(n,i=0,x=0):\n    if(n == 0):\n        return x\n    else:\n        rem = n%10\n        if(rem % 2 == 0):\n            x += rem*(10**(i))\n            i+=1 \n        return getEvenDigits(n//10,i,x)\ndef onlyEvenDigitsHelper(l,res=[]):",
+        "detail": "03-recursion_onlyevendigits-Python.recursion_onlyevendigits",
+        "documentation": {}
+    },
+    {
+        "label": "onlyEvenDigitsHelper",
+        "kind": 2,
+        "importPath": "03-recursion_onlyevendigits-Python.recursion_onlyevendigits",
+        "description": "03-recursion_onlyevendigits-Python.recursion_onlyevendigits",
+        "peekOfCode": "def onlyEvenDigitsHelper(l,res=[]):\n    if(l == []):\n        return res\n    else:\n        res.append(getEvenDigits(l[0]))\n        return onlyEvenDigitsHelper(l[1:],res)\ndef fun_recursion_onlyevendigits(l): \n    if(l == []):\n        return []\n    return onlyEvenDigitsHelper(l,[])",
         "detail": "03-recursion_onlyevendigits-Python.recursion_onlyevendigits",
         "documentation": {}
     },
@@ -39,7 +57,7 @@
         "kind": 2,
         "importPath": "03-recursion_onlyevendigits-Python.recursion_onlyevendigits",
         "description": "03-recursion_onlyevendigits-Python.recursion_onlyevendigits",
-        "peekOfCode": "def fun_recursion_onlyevendigits(l):\n\tif l==[]:\n\t\treturn l\n\tglobal gv\n\tif(len(l)!=0):\n\t\tgv=0\n\t\tremOdds(l[0])\n\t\ts.append(gv)\n\t\tfun_recursion_onlyevendigits(l[1:])\n\treturn s",
+        "peekOfCode": "def fun_recursion_onlyevendigits(l): \n    if(l == []):\n        return []\n    return onlyEvenDigitsHelper(l,[])",
         "detail": "03-recursion_onlyevendigits-Python.recursion_onlyevendigits",
         "documentation": {}
     },

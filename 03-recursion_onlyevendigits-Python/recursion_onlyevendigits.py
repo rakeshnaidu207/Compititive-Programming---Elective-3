@@ -19,17 +19,25 @@ def remOdds(v):
 			gv=gv*10+ld
 
 
-def fun_recursion_onlyevendigits(l):
-	if l==[]:
-		return l
-	global gv
-	if(len(l)!=0):
-		gv=0
-		remOdds(l[0])
-		s.append(gv)
-		fun_recursion_onlyevendigits(l[1:])
-	return s
-	# your code goes here
-
-#print(fun_recursion_onlyevendigits(readList()))
+def getEvenDigits(n,i=0,x=0):
+    if(n == 0):
+        return x
+    else:
+        rem = n%10
+        if(rem % 2 == 0):
+            x += rem*(10**(i))
+            i+=1 
+        return getEvenDigits(n//10,i,x)
+        
+def onlyEvenDigitsHelper(l,res=[]):
+    if(l == []):
+        return res
+    else:
+        res.append(getEvenDigits(l[0]))
+        return onlyEvenDigitsHelper(l[1:],res)
+        
+def fun_recursion_onlyevendigits(l): 
+    if(l == []):
+        return []
+    return onlyEvenDigitsHelper(l,[])
 
