@@ -1,0 +1,46 @@
+[
+    {
+        "label": "os,sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.sys",
+        "description": "os.sys",
+        "detail": "os.sys",
+        "documentation": {}
+    },
+    {
+        "label": "fun_nth_smithnumber",
+        "importPath": "nth_smithnumber",
+        "description": "nth_smithnumber",
+        "isExtraImport": true,
+        "detail": "nth_smithnumber",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "fun_nth_smithnumber",
+        "kind": 2,
+        "importPath": "03-nth_smithnumber-Python.nth_smithnumber",
+        "description": "03-nth_smithnumber-Python.nth_smithnumber",
+        "peekOfCode": "def fun_nth_smithnumber(n):\n    return 1",
+        "detail": "03-nth_smithnumber-Python.nth_smithnumber",
+        "documentation": {}
+    },
+    {
+        "label": "test_fun_nth_smithnumber",
+        "kind": 2,
+        "importPath": "03-nth_smithnumber-Python.test_nth_smithnumber",
+        "description": "03-nth_smithnumber-Python.test_nth_smithnumber",
+        "peekOfCode": "def test_fun_nth_smithnumber(x, result):\n    assert fun_nth_smithnumber(x) == result",
+        "detail": "03-nth_smithnumber-Python.test_nth_smithnumber",
+        "documentation": {}
+    }
+]
