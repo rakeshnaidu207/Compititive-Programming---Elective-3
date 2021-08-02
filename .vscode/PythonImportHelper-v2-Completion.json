@@ -1,10 +1,19 @@
 [
     {
+        "label": "collections",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "collections",
+        "description": "collections",
+        "detail": "collections",
+        "documentation": {}
+    },
+    {
         "label": "areAnagrams",
         "kind": 2,
         "importPath": "areAnagrams",
         "description": "areAnagrams",
-        "peekOfCode": "def areAnagrams(s1, s2):\n    # Your code goes here...\n    pass\n# write your test cases here...",
+        "peekOfCode": "def areAnagrams(s1, s2):\n    a=s1.lower()\n    b=s2.lower()\n    x=collections.Counter(a)\n    y=collections.Counter(b)\n    return x==y\nprint(areAnagrams(input(), input()))",
         "detail": "areAnagrams",
         "documentation": {}
     }
