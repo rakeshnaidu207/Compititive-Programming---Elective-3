@@ -1,0 +1,64 @@
+[
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "os,sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.sys",
+        "description": "os.sys",
+        "detail": "os.sys",
+        "documentation": {}
+    },
+    {
+        "label": "nthpronicnumber",
+        "importPath": "nthpronicnumber",
+        "description": "nthpronicnumber",
+        "isExtraImport": true,
+        "detail": "nthpronicnumber",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "checkproni",
+        "kind": 2,
+        "importPath": "03-nth_pronicnumber-Python.nthpronicnumber",
+        "description": "03-nth_pronicnumber-Python.nthpronicnumber",
+        "peekOfCode": "def checkpronic (x) :\n    i = 0\n    while ( i <= (int)(math.sqrt(x)) ) :\n        if ( x == i * (i + 1)) :\n            return True\n        i = i + 1\n    return False\ndef nthpronicnumber(n):\n    count=0\n    j=0",
+        "detail": "03-nth_pronicnumber-Python.nthpronicnumber",
+        "documentation": {}
+    },
+    {
+        "label": "nthpronicnumber",
+        "kind": 2,
+        "importPath": "03-nth_pronicnumber-Python.nthpronicnumber",
+        "description": "03-nth_pronicnumber-Python.nthpronicnumber",
+        "peekOfCode": "def nthpronicnumber(n):\n    count=0\n    j=0\n    while(count<=n):\n        if(checkpronic(j)):\n            count+=1\n            res=j\n        j+=1\n    return res",
+        "detail": "03-nth_pronicnumber-Python.nthpronicnumber",
+        "documentation": {}
+    },
+    {
+        "label": "test_nthpronicnumber",
+        "kind": 2,
+        "importPath": "03-nth_pronicnumber-Python.test_nthpronicnumber",
+        "description": "03-nth_pronicnumber-Python.test_nthpronicnumber",
+        "peekOfCode": "def test_nthpronicnumber(x, result):\n    assert nthpronicnumber(x) == result",
+        "detail": "03-nth_pronicnumber-Python.test_nthpronicnumber",
+        "documentation": {}
+    }
+]
