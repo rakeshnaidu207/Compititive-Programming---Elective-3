@@ -1,0 +1,11 @@
+[
+    {
+        "label": "SayHi",
+        "kind": 6,
+        "importPath": "SayHi",
+        "description": "SayHi",
+        "peekOfCode": "class SayHi(Object):\n    pass",
+        "detail": "SayHi",
+        "documentation": {}
+    }
+]
