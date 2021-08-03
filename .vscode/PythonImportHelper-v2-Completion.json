@@ -1,0 +1,64 @@
+[
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "os,sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.sys",
+        "description": "os.sys",
+        "detail": "os.sys",
+        "documentation": {}
+    },
+    {
+        "label": "nthwithproperty309",
+        "importPath": "nthwithproperty309",
+        "description": "nthwithproperty309",
+        "isExtraImport": true,
+        "detail": "nthwithproperty309",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "checkproperty309",
+        "kind": 2,
+        "importPath": "05-nthwithproperty309-Python.nthwithproperty309",
+        "description": "05-nthwithproperty309-Python.nthwithproperty309",
+        "peekOfCode": "def checkproperty309(n):\n    x=int(math.pow(n,5))\n    y=str(x)\n    list=[\"0\",\"1\",\"2\",\"3\",\"4\",\"5\",\"6\",\"7\",\"8\",\"9\"]\n    for i in list:\n        if i not in y:\n            return False\n    return True\ndef nthwithproperty309(n):\n    count=0",
+        "detail": "05-nthwithproperty309-Python.nthwithproperty309",
+        "documentation": {}
+    },
+    {
+        "label": "nthwithproperty309",
+        "kind": 2,
+        "importPath": "05-nthwithproperty309-Python.nthwithproperty309",
+        "description": "05-nthwithproperty309-Python.nthwithproperty309",
+        "peekOfCode": "def nthwithproperty309(n):\n    count=0\n    i=1\n    res=0\n    while(count<=n):\n        if(checkproperty309(i)):\n            count+=1\n            res=i\n        i+=1\n    return res",
+        "detail": "05-nthwithproperty309-Python.nthwithproperty309",
+        "documentation": {}
+    },
+    {
+        "label": "test_nthwithproperty309",
+        "kind": 2,
+        "importPath": "05-nthwithproperty309-Python.test_nthwithproperty309",
+        "description": "05-nthwithproperty309-Python.test_nthwithproperty309",
+        "peekOfCode": "def test_nthwithproperty309(x, result):\n    assert nthwithproperty309(x) == result",
+        "detail": "05-nthwithproperty309-Python.test_nthwithproperty309",
+        "documentation": {}
+    }
+]
