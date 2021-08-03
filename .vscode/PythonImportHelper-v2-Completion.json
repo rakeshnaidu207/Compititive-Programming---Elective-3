@@ -1,0 +1,11 @@
+[
+    {
+        "label": "movie_awards",
+        "kind": 2,
+        "importPath": "movie_awards",
+        "description": "movie_awards",
+        "peekOfCode": "def movie_awards(oscarResults):\n    # Your code goes here...\n    d={}\n    for i in oscarResults:\n        if i[1] not in d:\n            d[i[1]]=1\n        else:\n            d[i[1]]+=1\n    return d",
+        "detail": "movie_awards",
+        "documentation": {}
+    }
+]
