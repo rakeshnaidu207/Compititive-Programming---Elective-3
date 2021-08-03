@@ -1,0 +1,64 @@
+[
+    {
+        "label": "os,sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.sys",
+        "description": "os.sys",
+        "detail": "os.sys",
+        "documentation": {}
+    },
+    {
+        "label": "ishappyprimenumber",
+        "importPath": "happyprimes",
+        "description": "happyprimes",
+        "isExtraImport": true,
+        "detail": "happyprimes",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "isprime",
+        "kind": 2,
+        "importPath": "05-happyprimes-Python.happyprimes",
+        "description": "05-happyprimes-Python.happyprimes",
+        "peekOfCode": "def isprime(n):\n    if(n<2):\n        return False\n    for i in range(2,n):\n        if(n%i==0):\n            return False\n    return True\ndef checksum(n):\n    sum=0\n    while(n>0):",
+        "detail": "05-happyprimes-Python.happyprimes",
+        "documentation": {}
+    },
+    {
+        "label": "checksum",
+        "kind": 2,
+        "importPath": "05-happyprimes-Python.happyprimes",
+        "description": "05-happyprimes-Python.happyprimes",
+        "peekOfCode": "def checksum(n):\n    sum=0\n    while(n>0):\n        r=n%10\n        sum+=r*r\n        n=n//10\n    return sum\ndef ishappyprimenumber(n):\n    if(isprime(n)):\n        if(n<=3 and n!=1):",
+        "detail": "05-happyprimes-Python.happyprimes",
+        "documentation": {}
+    },
+    {
+        "label": "ishappyprimenumber",
+        "kind": 2,
+        "importPath": "05-happyprimes-Python.happyprimes",
+        "description": "05-happyprimes-Python.happyprimes",
+        "peekOfCode": "def ishappyprimenumber(n):\n    if(isprime(n)):\n        if(n<=3 and n!=1):\n            return False\n        while(1):\n            if(n==1):\n                return True\n            n=checksum(n)\n            if(n==4):\n                return False",
+        "detail": "05-happyprimes-Python.happyprimes",
+        "documentation": {}
+    },
+    {
+        "label": "test_ishappyprimenumber",
+        "kind": 2,
+        "importPath": "05-happyprimes-Python.test_happyprimes",
+        "description": "05-happyprimes-Python.test_happyprimes",
+        "peekOfCode": "def test_ishappyprimenumber(x, result):\n\tassert ishappyprimenumber(x) == result",
+        "detail": "05-happyprimes-Python.test_happyprimes",
+        "documentation": {}
+    }
+]
