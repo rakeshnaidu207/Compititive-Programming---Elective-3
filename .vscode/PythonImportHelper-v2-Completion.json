@@ -1,0 +1,20 @@
+[
+    {
+        "label": "bestQuiz",
+        "kind": 2,
+        "importPath": "quiz",
+        "description": "quiz",
+        "peekOfCode": "def bestQuiz(l):\n      count=[0,0,0]\n      avg=[0,0,0]\n      for i in range(len(l)):\n            for j in range(len(l[0])):\n                  if (l[i][j]!=-1):\n                        avg[j]+=l[i][j]\n                        count[j]+=1\n      #print(count)\n      #print(avg)  ",
+        "detail": "quiz",
+        "documentation": {}
+    },
+    {
+        "label": "testBestQuiz",
+        "kind": 2,
+        "importPath": "quiz",
+        "description": "quiz",
+        "peekOfCode": "def testBestQuiz():\n    print('Testing bestQuiz()...', end='')\n    a = [ [ 88,  80, 91 ],\n          [ 68, 100, -1 ]]\n    print(bestQuiz(a))\n    assert(bestQuiz(a) == 2)\n    a = [ [ 88,  80, 80 ],\n          [ 68, 100, 100 ]]\n    assert(bestQuiz(a) == 1)\n    a = [ [88, -1, -1 ],",
+        "detail": "quiz",
+        "documentation": {}
+    }
+]
