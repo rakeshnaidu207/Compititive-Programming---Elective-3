@@ -1,0 +1,38 @@
+[
+    {
+        "label": "topScorer",
+        "kind": 2,
+        "importPath": "topScorer",
+        "description": "topScorer",
+        "peekOfCode": "def topScorer(data):\n    Fred=[]\n    Wilma=[]\n    if(data==''):\n        return None\n    x=data.splitlines()\n    for i in x:\n        s=i.split(\",\")\n        for j in range(1,len(s)):\n            if(s[0]==\"Fred\"):",
+        "detail": "topScorer",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "topScorer",
+        "description": "topScorer",
+        "peekOfCode": "data = '''\\\nFred,10,20,30,40\nWilma,10,20,30\n'''\nassert(topScorer(data) == 'Fred')\ndata = '''\\\nFred,10,20,30\nWilma,10,20,30,40\n'''\nassert(topScorer(data) == 'Wilma')",
+        "detail": "topScorer",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "topScorer",
+        "description": "topScorer",
+        "peekOfCode": "data = '''\\\nFred,10,20,30\nWilma,10,20,30,40\n'''\nassert(topScorer(data) == 'Wilma')\ndata = '''\\\nFred,11,20,30\nWilma,10,20,30,1\n'''\nassert(topScorer(data) == 'Fred,Wilma')",
+        "detail": "topScorer",
+        "documentation": {}
+    },
+    {
+        "label": "data",
+        "kind": 5,
+        "importPath": "topScorer",
+        "description": "topScorer",
+        "peekOfCode": "data = '''\\\nFred,11,20,30\nWilma,10,20,30,1\n'''\nassert(topScorer(data) == 'Fred,Wilma')\nassert(topScorer('') == None)\nprint(\"All test cases passed...!\")\n# Hint: you may want to use both splitlines() and split(',') here!",
+        "detail": "topScorer",
+        "documentation": {}
+    }
+]
