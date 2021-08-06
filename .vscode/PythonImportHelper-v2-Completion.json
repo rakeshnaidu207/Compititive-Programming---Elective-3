@@ -1,0 +1,55 @@
+[
+    {
+        "label": "os,sys",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os.sys",
+        "description": "os.sys",
+        "detail": "os.sys",
+        "documentation": {}
+    },
+    {
+        "label": "recursion_powersof3ton",
+        "importPath": "recursion_powersof3ton",
+        "description": "recursion_powersof3ton",
+        "isExtraImport": true,
+        "detail": "recursion_powersof3ton",
+        "documentation": {}
+    },
+    {
+        "label": "pytest",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pytest",
+        "description": "pytest",
+        "detail": "pytest",
+        "documentation": {}
+    },
+    {
+        "label": "recursion_powersof3ton",
+        "kind": 2,
+        "importPath": "04-recursion_powersof3ton-Python.recursion_powersof3ton",
+        "description": "04-recursion_powersof3ton-Python.recursion_powersof3ton",
+        "peekOfCode": "def recursion_powersof3ton(n):\n    l=[]\n    if (n<1):\n        return None\n    elif(n==1):\n        return([int(n)])\n    else:\n        return(recurse(n,y=0))\ndef recurse(n,y):\n    if(n<y):",
+        "detail": "04-recursion_powersof3ton-Python.recursion_powersof3ton",
+        "documentation": {}
+    },
+    {
+        "label": "recurse",
+        "kind": 2,
+        "importPath": "04-recursion_powersof3ton-Python.recursion_powersof3ton",
+        "description": "04-recursion_powersof3ton-Python.recursion_powersof3ton",
+        "peekOfCode": "def recurse(n,y):\n    if(n<y):\n        return([])\n    elif((3**y)<=n):\n        return([3**y]+recurse(n,y+1))\n    else:\n        return([])",
+        "detail": "04-recursion_powersof3ton-Python.recursion_powersof3ton",
+        "documentation": {}
+    },
+    {
+        "label": "test_recursion_powersof3ton",
+        "kind": 2,
+        "importPath": "04-recursion_powersof3ton-Python.test_recursion_powersof3ton",
+        "description": "04-recursion_powersof3ton-Python.test_recursion_powersof3ton",
+        "peekOfCode": "def test_recursion_powersof3ton(a, result):\n\tassert recursion_powersof3ton(a) == result",
+        "detail": "04-recursion_powersof3ton-Python.test_recursion_powersof3ton",
+        "documentation": {}
+    }
+]
