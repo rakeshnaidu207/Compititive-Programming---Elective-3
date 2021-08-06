@@ -1,0 +1,11 @@
+[
+    {
+        "label": "isLatinSquare",
+        "kind": 2,
+        "importPath": "LatinSquare",
+        "description": "LatinSquare",
+        "peekOfCode": "def isLatinSquare(l):\n    x=[]\n    for i in range(len(l[0])):\n        if (l[0][i] not in x):\n            x.append(l[0][i])\n        else:\n            return False\n    for j in range(len(l)):#012\n        c=[]\n        r=[]",
+        "detail": "LatinSquare",
+        "documentation": {}
+    }
+]
