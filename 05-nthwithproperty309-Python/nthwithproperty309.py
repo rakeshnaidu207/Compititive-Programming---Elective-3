@@ -6,13 +6,10 @@
 
 import math
 def checkproperty309(n):
-    #flag=True
     x=int(math.pow(n,5))
-    #print(x)
     y=str(x)
     list=["0","1","2","3","4","5","6","7","8","9"]
     for i in list:
-        #print(i)
         if i not in y:
             return False
     return True
